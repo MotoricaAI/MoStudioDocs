@@ -1,0 +1,11 @@
+# Pull material-mkdocs Docker image
+docker pull squidfunk/mkdocs-material
+
+# Setup the website
+docker run --rm -it -v "${PWD}:/docs" squidfunk/mkdocs-material new .
+
+# Serve preview site
+docker run --rm -it -p 8000:8000 -v "${PWD}:/docs" squidfunk/mkdocs-material
+
+# Build the site
+docker run --rm -it -v "${PWD}:/docs" squidfunk/mkdocs-material build
