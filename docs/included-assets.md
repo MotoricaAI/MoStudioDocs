@@ -52,6 +52,8 @@ The Motorica Studio editor can load other levels besides the prototype one. To l
 ![](./images/load-custom-level.png)
 
 ## Retargeting
+For a walkthrough on how to use the assets below to retarget Motorica animations, please refer to [Retargeting](/retargeting) docs page.
+
 ![](./images/content-browser-folder-plugin-retargeting.png)
 
 A collection of assets that can be used to retarget animations from the Motorica skeleton to other skeletons. The folder contains the following assets:

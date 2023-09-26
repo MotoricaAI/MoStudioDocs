@@ -6,11 +6,15 @@ We are slowly transitioning from the original Google Docs style of documentation
 
 We expect to do something similar for the [plugin binary releases](https://drive.google.com/drive/folders/1e6sxkr8GiZCXNJb9W0bH32bwcNw06wqm), which are currently hosted on Google Cloud.
 
-Links:
+Docs:
+
+- [Included Assets](/included-assets)
+- [Retargeting](/retargeting)
+
+External links:
 
 - [Motorica Studio user guide (Google Docs)](https://docs.google.com/document/d/e/2PACX-1vSEqmBBs6cngvLE4BB4AVtasH601Gsfe5rLUPssLbWOacWo-mXegOY53pn8IZxsUS6O7KsMPtELplIy/pub)
 - [Motorica Studio binary releases (Google Cloud)](https://drive.google.com/drive/folders/1e6sxkr8GiZCXNJb9W0bH32bwcNw06wqm)
-- [Included Assets](./included-assets)
 
 ---
 
