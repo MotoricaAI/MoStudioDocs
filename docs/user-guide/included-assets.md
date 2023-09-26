@@ -3,41 +3,41 @@ The plugin comes with premade assets that you can work with. For example, you ca
 
 To view these assets, enable "Show Plugin Content" in the Content Browser settings.
 
-![](/images/content-browser-settings-show-plugin-content.png)
+![](../images/content-browser-settings-show-plugin-content.png)
 
 And navigate to `Plugins > Motorica Studio > Content`.
 
-![](/images/content-browser-folder-plugin.png)
+![](../images/content-browser-folder-plugin.png)
 
-![](/images/content-browser-folder-plugin-content.png)
+![](../images/content-browser-folder-plugin-content.png)
 
 Note: The folder names may differ depending on the plugin version you are using.
 
 ## Animations
-![](/images/content-browser-folder-plugin-animations.png)
+![](../images/content-browser-folder-plugin-animations.png)
 
 This folder contains animations adapted to the Motorica character, generated using MoGen inside the Motorica Studio editor. You can preview and use these animations without having to open the Motorica Studio editor at all!
 
 If you wish to retarget these animations to non-Motorica characters, read about the assets inside the "Retargeting" folder further below.
 
 ## Characters
-![](/images/content-browser-folder-plugin-characters-2.png)
+![](../images/content-browser-folder-plugin-characters-2.png)
 
 Contains assets (textures, skeleton, materials, etc.) of various characters that you can retarget MoGen-generated animations to.
 
-![](/images/content-browser-folder-plugin-characters.png)
+![](../images/content-browser-folder-plugin-characters.png)
 
 - **MetaHuman** - Added for support of MetaHuman retargeting. Includes the default male / female body meshes. When retargeting, this character would be the retarget *Target*.
 - **Mixamo** - Use these to preview how animations are affected when applied to different body proportions. When retargeting, this character would be the retarget *Target*.
 - **MotoricaStudio** - This is the default character used throughout the plugin. All MoGen-generated animations are applied to the skeleton of this character by default. When retargeting, this character would be the retarget *Source*.
 
 ## Internal
-![](/images/content-browser-folder-plugin-internal.png)
+![](../images/content-browser-folder-plugin-internal.png)
 
 Various assets used internally by the plugin. You do not need to modify or use these assets.
 
 ## Levels
-![](/images/content-browser-folder-plugin-levels.png)
+![](../images/content-browser-folder-plugin-levels.png)
 
 Example levels that you can use inside the Motorica Studio editor.
 
@@ -49,12 +49,12 @@ The Motorica Studio editor can load other levels besides the prototype one. To l
 1. Load the asset in the main editor window by double-clicking it.
 2. Click the "globe icon" in the Motorica Studio editor.
 
-![](/images/load-custom-level.png)
+![](../images/load-custom-level.png)
 
 ## Retargeting
-For a walkthrough on how to use the assets below to retarget Motorica animations, please refer to [Retargeting](/retargeting) docs page.
+For a walkthrough on how to use the assets below to retarget Motorica animations, please refer to [Retargeting](../retargeting) docs page.
 
-![](/images/content-browser-folder-plugin-retargeting.png)
+![](../images/content-browser-folder-plugin-retargeting.png)
 
 A collection of assets that can be used to retarget animations from the Motorica skeleton to other skeletons. The folder contains the following assets:
 
@@ -65,7 +65,7 @@ A collection of assets that can be used to retarget animations from the Motorica
 - **LS_RuntimeRTG_Switchable** - A `Level Sequence` asset demonstrating runtime retargeting from the Motorica skeleton to a set of Mixamo skeletons of various sizes. The skeletons are switched by a Sequencer track during while the sequence plays.
 
 ### MetaHuman
-![](/images/content-browser-folder-plugin-retargeting-metahuman.png)
+![](../images/content-browser-folder-plugin-retargeting-metahuman.png)
 
 - **ABP_MetaHuman_full** - `Animation Blueprint` used for runtime retargeting from the "minimal" Motorica skeleton to the "full" MetaHuman skeleton. A similar blueprint exists for all other Mixamo characters. 
 - **ABP_MetaHuman_minimal** - `Animation Blueprint` used for runtime retargeting from the "minimal" Motorica skeleton to the "minimal" MetaHuman skeleton. A similar blueprint exists for all other Mixamo characters. 
@@ -77,7 +77,7 @@ A collection of assets that can be used to retarget animations from the Motorica
 - **RTG_MetaHuman_minimal_MoStudio_minimal** - `IK Retargeter` asset that sets up retargeting from the Motorica skeleton to the MetaHuman skeleton. Bone chains from the "minimal" Motorica character IK Rig are mapped to bone chains from the "minimal" MetaHuman IK Rig.
 
 ### Mixamo
-![](/images/content-browser-folder-plugin-retargeting-mixamo-mutant.png)
+![](../images/content-browser-folder-plugin-retargeting-mixamo-mutant.png)
 
 These assets correspond to the Mixamo Mutant character. Other Mixamo characters also have similar assets:
 
@@ -87,7 +87,7 @@ These assets correspond to the Mixamo Mutant character. Other Mixamo characters 
 - **RTG_Mixamo_Mutant** - `IK Retargeter` asset that sets up retargeting from the Motorica skeleton to the Mixamo Mutant skeleton. Bone chains from the Motorica character IK Rig are mapped to bone chains from the Mixamo Mutant IK Rig.
 
 ### MotoricaStudio
-![](/images/content-browser-folder-plugin-retargeting-motoricastudio.png)
+![](../images/content-browser-folder-plugin-retargeting-motoricastudio.png)
 
 - **IK_MoStudio_legacy** - This is the legacy `IK Rig` asset that was provided in Motorica Studio v0.1.0, and is included for compatibility reasons here. The recommendation now is to use `IK_MoStudio_minimal` instead. If you are using the old `IK_Motorica`, you should update the references to this asset.
 - **IK_MoStudio_minimal** - `IK Rig` asset that sets up skeleton retargeting for the Motorica skeleton. This setup is minimal as it excludes individual bones and finger bones. Only the spine, legs, arms, head, and root have bone chains. Use this asset inside an `IK Retargeter` asset and set it as the retargeting "source" to retarget from the Motorica skeleton to other skeletons.

@@ -8,8 +8,8 @@ We expect to do something similar for the [plugin binary releases](https://drive
 
 Docs:
 
-- [Included Assets](/included-assets)
-- [Retargeting](/retargeting)
+- [Included Assets](./user-guide/included-assets)
+- [Retargeting](./user-guide/retargeting)
 
 External links:
 
