@@ -9,9 +9,7 @@ And navigate to `Plugins > Motorica Studio > Content`.
 
 ![](../images/content-browser-folder-plugin.png)
 
-![](../images/content-browser-folder-plugin-content.png)
-
-Note: The folder names may differ depending on the plugin version you are using.
+Note: The folder names may be different depending on the plugin version you are using.
 
 ## Animations
 ![](../images/content-browser-folder-plugin-animations.png)
@@ -52,43 +50,4 @@ The Motorica Studio editor can load other levels besides the prototype one. To l
 ![](../images/load-custom-level.png)
 
 ## Retargeting
-For a walkthrough on how to use the assets below to retarget Motorica animations, please refer to [Retargeting](../retargeting) docs page.
-
-![](../images/content-browser-folder-plugin-retargeting.png)
-
-A collection of assets that can be used to retarget animations from the Motorica skeleton to other skeletons. The folder contains the following assets:
-
-- **ABP_Switchable** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to other skeletons. It is possible to switch the target skeleton via a variable named `IKRetargeterAsset`.
-- **BP_RuntimeRTG_Base** - A spawnable `Actor Blueprint` that sets up runtime retargeting between the Motorica skeleton and other skeletons. This blueprint serves as a base which other blueprints extend.
-- **BP_RuntimeRTG_Switchable** - A spawnable `Actor Blueprint` that sets up runtime retargeting between the Motorica skeleton and other skeletons. This blueprint allows the switching of the target skeleton via the functions `SetIKRetargeterAsset` and `SetTargetMesh`.
-- **LS_RuntimeRTG** - A `Level Sequence` asset demonstrating runtime retargeting from the Motorica skeleton to a set of Mixamo skeletons and MetaHuman skeletons.
-- **LS_RuntimeRTG_Switchable** - A `Level Sequence` asset demonstrating runtime retargeting from the Motorica skeleton to a set of Mixamo skeletons of various sizes. The skeletons are switched by a Sequencer track during while the sequence plays.
-
-### MetaHuman
-![](../images/content-browser-folder-plugin-retargeting-metahuman.png)
-
-- **ABP_MetaHuman_full** - `Animation Blueprint` used for runtime retargeting from the "minimal" Motorica skeleton to the "full" MetaHuman skeleton. A similar blueprint exists for all other Mixamo characters. 
-- **ABP_MetaHuman_minimal** - `Animation Blueprint` used for runtime retargeting from the "minimal" Motorica skeleton to the "minimal" MetaHuman skeleton. A similar blueprint exists for all other Mixamo characters. 
-- **BP_RuntimeRTG_MetaHuman_full** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting between the "minimal" Motorica skeleton and the "full" MetaHuman skeleton.
-- **BP_RuntimeRTG_MetaHuman_minimal** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting between the "minimal" Motorica skeleton and the "minimal" MetaHuman skeleton.
-- **IK_MetaHuman_full** - `IK Rig` asset that sets up retargeting for the default MetaHuman skeleton. The asset contains bone chains for arms, legs, spine, head, root, and fingers.
-- **IK_MetaHuman_minimal** - `IK Rig` asset that sets up retargeting for the default MetaHuman skeleton. The asset contains bone chains for arms, legs, spine, head, root, excluding fingers.
-- **RTG_MetaHuman_full_MoStudio_minimal** - `IK Retargeter` asset that sets up retargeting from the Motorica skeleton to the MetaHuman skeleton. Bone chains from the "minimal" Motorica character IK Rig are mapped to bone chains from the "full" MetaHuman IK Rig.
-- **RTG_MetaHuman_minimal_MoStudio_minimal** - `IK Retargeter` asset that sets up retargeting from the Motorica skeleton to the MetaHuman skeleton. Bone chains from the "minimal" Motorica character IK Rig are mapped to bone chains from the "minimal" MetaHuman IK Rig.
-
-### Mixamo
-![](../images/content-browser-folder-plugin-retargeting-mixamo-mutant.png)
-
-These assets correspond to the Mixamo Mutant character. Other Mixamo characters also have similar assets:
-
-- **ABP_Mixamo_Mutant** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to the Mixamo Mutant skeleton.
-- **BP_RuntimeRTG_Mixamo_Mutant** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting between the Motorica skeleton and the Mixamo Mutant skeleton.
-- **IK_Mixamo_Mutant** - `IK Rig` asset that sets up retargeting for the Mixamo Mutant skeleton. It contains a minimal bone map composed of the spine, arms, legs, head, and root of the character.
-- **RTG_Mixamo_Mutant** - `IK Retargeter` asset that sets up retargeting from the Motorica skeleton to the Mixamo Mutant skeleton. Bone chains from the Motorica character IK Rig are mapped to bone chains from the Mixamo Mutant IK Rig.
-
-### MotoricaStudio
-![](../images/content-browser-folder-plugin-retargeting-motoricastudio.png)
-
-- **IK_MoStudio_legacy** - This is the legacy `IK Rig` asset that was provided in Motorica Studio v0.1.0, and is included for compatibility reasons here. The recommendation now is to use `IK_MoStudio_minimal` instead. If you are using the old `IK_Motorica`, you should update the references to this asset.
-- **IK_MoStudio_minimal** - `IK Rig` asset that sets up skeleton retargeting for the Motorica skeleton. This setup is minimal as it excludes individual bones and finger bones. Only the spine, legs, arms, head, and root have bone chains. Use this asset inside an `IK Retargeter` asset and set it as the retargeting "source" to retarget from the Motorica skeleton to other skeletons.
-- **RTG_MoStudio_minimal** - `IK Retargeter` asset that retargets from the Motorica skeleton to itself. This is mainly used for debugging purposes.
+You can find an explanation of retargeting assets in the [Retargeting](../retargeting) docs page.
