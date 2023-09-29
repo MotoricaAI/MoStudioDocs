@@ -1,7 +1,7 @@
 # Patch Notes - v0.2.0 (Alpha)
 ## What's new
-- [New documentation website](https://motoricaai.github.io/MoStudioDocs/)
-- [New example assets and folder structure](../user-guide/included-assets/)
+- New [documentation website](https://motoricaai.github.io/MoStudioDocs/)
+- New [example assets and folder structure](../../user-guide/included-assets/)
 
 ## Bug fixes
 - Fix login issue when password contains "&" or "+"
