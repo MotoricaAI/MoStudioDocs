@@ -50,4 +50,4 @@ The Motorica Studio editor can load other levels besides the prototype one. To l
 ![](../images/load-custom-level.png)
 
 ## Retargeting
-You can find an explanation of retargeting assets in the [Retargeting](../retargeting) docs page.
+You can find an explanation of retargeting assets in the [Retargeting](../retargeting/) docs page.
