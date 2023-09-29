@@ -1,9 +1,9 @@
 # Patch Notes - v0.2.0 (Alpha)
-## What's New
+## What's new
 - [New documentation website](https://motoricaai.github.io/MoStudioDocs/)
 - [New example assets and folder structure](../user-guide/included-assets/)
 
-## Bug Fixes
+## Bug fixes
 - Fix login issue when password contains "&" or "+"
 - Fix gizmo transform not updating when jumping through the Sequencer timeline
 - Fix gizmo transform not updating when changing Actor transform from the Details panel
