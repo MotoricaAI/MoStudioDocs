@@ -13,6 +13,9 @@
 - Fixed a bug that would cause user login to fail if the user password contains "&" or "+".
 - Fixed gizmo transform not updating when left-clicking on the Sequencer timeline.
 - Fixed gizmo transform not updating when the selected Actor's transform is changed from the Details panel.
+- Fixed unable to select objects in Motorica Studio Editor after changing the map in the level editor. *(Except UE 5.0)*
+- Fixed unable to select objects in Motorica Studio Editor after pressing play-in-editor (PIE). *(Except UE 5.0)*
+- Fixed unable to select objects in Motorica Studio Editor after a save is issued (manual or autosave). *(Except UE 5.0)*
 - Fixed potential crash when switching to *Preset Mode* due to GC of the preset controls panel.
 
 ## Additional Notes
