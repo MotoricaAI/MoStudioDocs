@@ -1,9 +1,5 @@
 # Retargeting
-Motorica Studio includes assets that demonstrate retargeting from the Motorica character to other characters. A description of the included assets is provided [below](./#assets), but a tutorial on how to use them is currently missing. For a rough explanation, please watch these YouTube tutorials:
-
-- [Motorica - Generative AI for animation - Unreal](https://www.youtube.com/watch?v=-UY5rom6LGE)
-- [Motorica - Generative AI for animation - Plugin Unreal](https://www.youtube.com/watch?v=3qmHzPH06O4)
-- [Motorica a Metahuman con Mixamo Animation Retargeting 2](https://www.youtube.com/watch?v=R5euNHUcUec&t)
+Motorica Studio includes assets that demonstrate retargeting from the Motorica character to other characters.
 
 *Note: Retargeting in UE 5.0 is not ideal. You are encouraged to use UE 5.1 and above. Example issues seen [here](https://forums.unrealengine.com/t/retargeting-root-bone-ue5/506512) and [here](https://forums.unrealengine.com/t/ue5-retargeted-root-motion-animations-have-innacurate-pelvis-hip-placement/514656)*.
 
@@ -57,3 +53,11 @@ The assets above are for the *Mixamo Mutant* character. Other mixamo characters 
 - **BP_RuntimeRTG_Mannequin_MoStudio** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to the UE5 mannequin skeleton using `ABP_Mannequin_MoStudio`.
 - **IK_Mannequin_MoStudio** - `IK Rig` asset that configures the default UE5 mannequin skeleton for retargeting. This is identical to the default UE5 mannequin IK Rig *(confirmed in UE 5.2)*.
 - **RTG_Mannequin_MoStudio** - `IK Retargeter` asset that retargets from the `IK_MoStudio` IK Rig to the `IK_Mannequin_MoStudio` IK Rig. The UE5 mannequin retarget pose is edited to match the T-pose of the Motorica skeleton. IK retargeting is disabled.
+
+## How-To
+A detailed guide on how to do retargeting (and how the included assets are set up) is missing. For now, you are encouraged to explore the [included assets](./#assets) in the plugin to understand more about how retargeting is set up.
+
+You can also refer to these YouTube tutorials for more information:
+- [Motorica - Generative AI for animation - Unreal](https://www.youtube.com/watch?v=-UY5rom6LGE)
+- [Motorica - Generative AI for animation - Plugin Unreal](https://www.youtube.com/watch?v=3qmHzPH06O4)
+- [Motorica a Metahuman con Mixamo Animation Retargeting 2](https://www.youtube.com/watch?v=R5euNHUcUec&t)
