@@ -25,9 +25,10 @@ Contains assets (textures, skeleton, materials, etc.) of various characters that
 
 ![](../images/content-browser-folder-plugin-characters.png)
 
-- **MetaHuman** - Added for support of MetaHuman retargeting. Includes the default male / female body meshes. When retargeting, this character would be the retarget *Target*.
-- **Mixamo** - Use these to preview how animations are affected when applied to different body proportions. When retargeting, this character would be the retarget *Target*.
-- **MotoricaStudio** - This is the default character used throughout the plugin. All MoGen-generated animations are applied to the skeleton of this character by default. When retargeting, this character would be the retarget *Source*.
+- **MetaHuman** - (Target skeleton) Used for retargeting to MetaHuman characters. Includes the default male body mesh. (Other meshes are not included to keep the plugin file small.)
+- **Mixamo** - (Target skeleton) Used for retargeting to Mixamo characters. Multiple characters are included with different body proportions.
+- **MotoricaStudio** - (Source skeleton) This is the default Motorica Studio character from which animations are retargeted. All MoGen-generated animations are applied to this character by default.
+- **UnrealEngine** - (Target skeleton) Used for retargeting to UE5 mannequin. Includes the default male / female body meshes.
 
 ## Internal
 ![](../images/content-browser-folder-plugin-internal.png)

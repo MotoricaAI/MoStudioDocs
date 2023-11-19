@@ -22,36 +22,40 @@ Note: The folder names may be different depending on the plugin version you are 
 
 ![](../images/content-browser-folder-plugin-retargeting.png)
 
-- **BP_RuntimeRTG_Base** - A spawnable `Actor Blueprint` that sets up runtime retargeting between the Motorica skeleton and other skeletons. This blueprint serves as a base which other blueprints extend.
-- **LS_RuntimeRTG** - A `Level Sequence` asset demonstrating runtime retargeting from the Motorica skeleton to a set of Mixamo skeletons and MetaHuman skeletons.
+- **BP_RuntimeRTG_Base** - A spawnable `Actor Blueprint` that sets up runtime retargeting between the Motorica skeleton and other skeletons. This blueprint serves as a base which other blueprints can extend from.
+- **LS_RuntimeRTG** - A `Level Sequence` asset demonstrating runtime retargeting from the Motorica skeleton to a set of other skeletons.
 
-#### MetaHuman
+### MetaHuman
 ![](../images/content-browser-folder-plugin-retargeting-metahuman.png)
 
-- **ABP_MetaHuman_extended** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to the MetaHuman skeleton. It uses the `RTG_MetaHuman_extended_MoStudio_minimal` IK Retargeter asset.
-- **ABP_MetaHuman_minimal** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to the MetaHuman skeleton. It uses the `RTG_MetaHuman_minimal_MoStudio_minimal` IK Retargeter asset.
-- **BP_RuntimeRTG_MetaHuman_extended** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to the MetaHuman skeleton using `ABP_MetaHuman_extended`.
-- **BP_RuntimeRTG_MetaHuman_minimal** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to the MetaHuman skeleton using `ABP_MetaHuman_minimal`.
-- **IK_MetaHuman_extended** - `IK Rig` asset that configures the default MetaHuman skeleton for retargeting. It contains bone chains for the spine, legs, arms, head, root, and fingers. This is a slightly modified copy of the original MetaHuman IK Rig.
-- **IK_MetaHuman_minimal** - `IK Rig` asset that configures the default MetaHuman skeleton for retargeting. It contains bone chains for the spine, legs, arms, head and root, excluding fingers.
-- **RTG_MetaHuman_extended_MoStudio_minimal** - `IK Retargeter` asset that retargets from the `IK_MoStudio_minimal` IK Rig to the `IK_MetaHuman_extended` IK Rig. The source skeleton was adjusted to match the A-pose of the target skeleton. IK goals are disabled.
-- **RTG_MetaHuman_minimal_MoStudio_minimal** - `IK Retargeter` asset that retargets from the `IK_MoStudio_minimal` IK Rig to the `IK_MetaHuman_minimal` IK Rig. The source skeleton was adjusted to match the A-pose of the target skeleton.
+- **ABP_MetaHuman_MoStudio** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to the MetaHuman skeleton. It uses the `RTG_metahuman_MoStudio` IK Retargeter asset.
+- **BP_RuntimeRTG_metahuman_MoStudio** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to the MetaHuman skeleton using `ABP_metahuman_MoStudio`.
+- **IK_metahuman_MoStudio** - `IK Rig` asset that configures the default MetaHuman skeleton for retargeting. This is identical to the default MetaHuman IK Rig *(confirmed UE 5.2)*.
+- **RTG_metahuman_MoStudio** - `IK Retargeter` asset that retargets from the `IK_MoStudio` IK Rig to the `IK_metahuman_MoStudio` IK Rig. The MetaHuman retarget pose is edited to match the T-pose of the Motorica skeleton. IK retargeting is disabled.
 
-#### Mixamo
+### Mixamo
 ![](../images/content-browser-folder-plugin-retargeting-mixamo-mutant.png)
-
-All Mixamo characters share similar assets. The following assets are for the *Mixamo Mutant* character:
 
 - **ABP_Mixamo_Mutant** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to the Mixamo Mutant skeleton. It uses the `RTG_Mixamo_Mutant` IK Retargeter asset.
 - **BP_RuntimeRTG_Mixamo_Mutant** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to the Mixamo Mutant skeleton using `ABP_Mixamo_Mutant`.
 - **IK_Mixamo_Mutant** - `IK Rig` asset that configures the Mixamo Mutant skeleton for retargeting. It contains bone chains for the spine, legs, arms, head and root, excluding fingers.
 - **RTG_Mixamo_Mutant** - `IK Retargeter` asset that retargets from the `IK_MoStudio_minimal` IK Rig to the `IK_Mixamo_Mutant` IK Rig.
 
-#### MotoricaStudio
+The assets above are for the *Mixamo Mutant* character. Other mixamo characters have similar assets.
+
+### MotoricaStudio
 ![](../images/content-browser-folder-plugin-retargeting-motoricastudio.png)
 
-- **ABP_MoStudio_minimal** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to itself. It uses the `RTG_MoStudio_minimal` IK Retargeter asset.
-- **BP_RuntimeRTG_MoStudio_minimal** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to itself using `ABP_MoStudio_minimal`.
-- **IK_MoStudio_legacy** - This is the legacy `IK Rig` asset that was provided in *Motorica Studio v0.1.0*. It is included for compatibility purposes. The recommendation is to use `IK_MoStudio_minimal` instead. If you are using the old `IK_Motorica` IK Rig, you should update the references to this asset.
-- **IK_MoStudio_minimal** - `IK Rig` asset that configures the Motorica skeleton for retargeting. It contains bone chains for the spine, legs, arms, head and root, excluding fingers. This asset is commonly used in `IK Retargeter` assets as the retargeting *source*.
-- **RTG_MoStudio_minimal** - `IK Retargeter` asset that retargets from the `IK_MoStudio_minimal` IK Rig to itself. This is mainly used for debugging purposes.
+- **ABP_MoStudio** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to itself. It uses the `RTG_MoStudio` IK Retargeter asset.
+- **BP_RuntimeRTG_MoStudio** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to itself using `ABP_MoStudio`.
+- **IK_MoStudio** - `IK Rig` asset that configures the Motorica skeleton for retargeting. It contains bone chains for the root, hips, spine, legs, arms, and head, except fingers. For compatibility, some bones like the root and shoulders have multiple chains. Find the ones that work best for you target skeleton. You can also copy and tweak the bone chains to improve retargeting to your character. Most `IK Retargeter` assets in the plugin use this IK Rig as the *retargeting source*.
+- **IK_MoStudio_legacy** - This is the legacy `IK Rig` asset that was provided in *Motorica Studio v0.1.0* called `IK_Motorica`. You should use `IK_MoStudio` from now on. If you are using the old `IK_Motorica` IK Rig, update your references to point to `IK_MoStudio_legacy`.
+- **RTG_MoStudio** - `IK Retargeter` asset that retargets from the `IK_MoStudio` IK Rig to itself. This is mainly used for debugging purposes.
+
+### UE5 Mannequin
+![](../images/content-browser-folder-plugin-retargeting-ue5mannequin.png)
+
+- **ABP_Mannequin_MoStudio** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to the UE5 mannequin skeleton. It uses the `RTG_Mannequin_MoStudio` IK Retargeter asset.
+- **BP_RuntimeRTG_Mannequin_MoStudio** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to the UE5 mannequin skeleton using `ABP_Mannequin_MoStudio`.
+- **IK_Mannequin_MoStudio** - `IK Rig` asset that configures the default UE5 mannequin skeleton for retargeting. This is identical to the default UE5 mannequin IK Rig *(confirmed in UE 5.2)*.
+- **RTG_Mannequin_MoStudio** - `IK Retargeter` asset that retargets from the `IK_MoStudio` IK Rig to the `IK_Mannequin_MoStudio` IK Rig. The UE5 mannequin retarget pose is edited to match the T-pose of the Motorica skeleton. IK retargeting is disabled.
