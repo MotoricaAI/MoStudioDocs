@@ -1,22 +1,20 @@
 # Retargeting
-Motorica Studio ships with assets that you can use for retargeting. While an explanation of these assets is provided [below](./#assets), a tutorial on how to use them is currently missing. Please have a look at these YouTube tutorials instead:
+Motorica Studio includes assets that demonstrate retargeting from the Motorica character to other characters. A description of the included assets is provided [below](./#assets), but a tutorial on how to use them is currently missing. For a rough explanation, please watch these YouTube tutorials:
 
 - [Motorica - Generative AI for animation - Unreal](https://www.youtube.com/watch?v=-UY5rom6LGE)
 - [Motorica - Generative AI for animation - Plugin Unreal](https://www.youtube.com/watch?v=3qmHzPH06O4)
 - [Motorica a Metahuman con Mixamo Animation Retargeting 2](https://www.youtube.com/watch?v=R5euNHUcUec&t)
 
-## Assets
-The plugin includes assets that you can use to retarget Motorica animations onto other characters. **These assets are intended for use in UE 5.1 and above** as we experienced issues with retargeting in UE 5.0 (partially discussed [here](https://forums.unrealengine.com/t/retargeting-root-bone-ue5/506512) and [here](https://forums.unrealengine.com/t/ue5-retargeted-root-motion-animations-have-innacurate-pelvis-hip-placement/514656)).
+*Note: Retargeting in UE 5.0 is not ideal. You are encouraged to use UE 5.1 and above. Example issues seen [here](https://forums.unrealengine.com/t/retargeting-root-bone-ue5/506512) and [here](https://forums.unrealengine.com/t/ue5-retargeted-root-motion-animations-have-innacurate-pelvis-hip-placement/514656)*.
 
-To view these assets, enable "Show Plugin Content" in the Content Browser settings.
+## Assets
+First, enable "Show Plugin Content" in the Content Browser settings.
 
 ![](../images/content-browser-settings-show-plugin-content.png)
 
-And navigate to `Plugins > Motorica Studio > Content`.
+Then, navigate to `Plugins > Motorica Studio > Content`. (The folders may look different depending on which version of Motorica Studio you are using.)
 
 ![](../images/content-browser-folder-plugin.png)
-
-Note: The folder names may be different depending on the plugin version you are using.
 
 ### Retargeting folder
 
