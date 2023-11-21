@@ -1,10 +1,13 @@
 # Patch Notes - v0.2.0 (Alpha)
 ## New
 - Added [**demo assets**](../../user-guide/retargeting/) to demonstrate the process of retargeting from the Motorica skeleton to other character skeletons.
-- Overhauled the **Style Browser** UI to show a hierarchical view of styles and style categories. Toggle the checkbox or double-click to enable / disable style mixing. Styles can also be searched using the search field at the top. 
 - Set up a [**website**](https://motoricaai.github.io/MoStudioDocs/) for storing Motorica Studio documentation.
 
 ## Improvement
+- Overhauled the **Style Browser** UI to show a hierarchical view of styles and style categories.
+  - Toggle the checkbox or double-click the style row to enable / disable style blending.
+  - Search styles using the search field at the top.
+  - The Style Browser state is persistent between editor modes.
 - The **editor mode selector** now displays the name and icon of the active editor mode (e.g. *Preset* or *Custom* mode).
 - Most toolbar and tab **icons** in the Motorica Studio Editor have been revised.
 - The **plugin content** directory has been cleaned up and [documented](../../user-guide/included-assets/).
