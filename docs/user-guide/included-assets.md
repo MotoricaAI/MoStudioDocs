@@ -16,7 +16,7 @@ Note: The folder names may be different depending on the plugin version you are 
 
 This folder contains animations adapted to the Motorica character, generated using MoGen inside the Motorica Studio editor. You can preview and use these animations without having to open the Motorica Studio editor at all!
 
-If you wish to retarget these animations to non-Motorica characters, read about the assets inside the "Retargeting" folder further below.
+If you wish to retarget these animations to non-Motorica characters, read about how to use the supplied retargeting assets on [this page](../retargeting/).
 
 ## Characters
 ![](../images/content-browser-folder-plugin-characters-2.png)
