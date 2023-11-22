@@ -4,7 +4,7 @@
 - Set up a [**website**](https://motoricaai.github.io/MoStudioDocs/) for storing Motorica Studio documentation.
 
 ## Improvement
-- Overhauled the **Style Browser** UI to show a hierarchical view of styles and style categories.
+- Redesigned the **Style Browser** UI to show a hierarchical view of styles and style categories.
   - Toggle the checkbox or double-click the style row to enable / disable style blending.
   - Search styles using the search field at the top.
   - The Style Browser state is persistent between editor modes.
