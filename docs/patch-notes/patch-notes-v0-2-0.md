@@ -1,4 +1,4 @@
-# Patch Notes - v0.2.0 (Alpha)
+# Patch Notes - v0.2.0
 ## New
 - Added [**demo assets**](../../user-guide/retargeting/) to demonstrate the process of retargeting from the Motorica skeleton to other character skeletons.
 - Set up a [**website**](https://motoricaai.github.io/MoStudioDocs/) for storing Motorica Studio documentation.
