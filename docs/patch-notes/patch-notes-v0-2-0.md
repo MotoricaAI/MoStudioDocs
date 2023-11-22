@@ -20,6 +20,7 @@
 - Fixed unable to **select objects** in the Motorica Studio Editor viewport after pressing play-in-editor (PIE). *(UE 5.1 and above)*
 - Fixed unable to **select objects** in the Motorica Studio Editor viewport after a manual or auto save is issued. *(UE 5.1 and above)*
 - Fixed **potential crash** when switching to *Preset Mode* due to GC of the preset controls panel.
+- Fixed **root motion** not being extracted correctly.
 
 ## Additional Notes
 - The `IK Rig` asset "*IK_Motorica*" from *Motorica Studio v0.1.0* is now deprecated. From now on, please use `Plugin > Content > Retargeting > MotoricaStudio > IK_MoStudio`. References to the old `IK Rig` asset will need to be updated to `Plugin > Content > Retargeting > MotoricaStudio > IK_MoStudio_legacy`.
