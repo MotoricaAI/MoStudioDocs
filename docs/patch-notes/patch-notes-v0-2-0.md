@@ -5,9 +5,9 @@
 
 ## Improvement
 - Redesigned the **Style Browser** UI to show a hierarchical view of styles and style categories.
-  - Toggle the checkbox or double-click the style row to enable / disable style blending.
-  - Search styles using the search field at the top.
-  - The Style Browser state is persistent between editor modes.
+    - Toggle the checkbox or double-click the style row to enable / disable style blending.
+    - Search styles using the search field at the top.
+    - The Style Browser state is persistent between editor modes.
 - The **editor mode selector** now displays the name and icon of the active editor mode (e.g. *Preset* or *Custom* mode).
 - Most toolbar and tab **icons** in the Motorica Studio Editor have been revised.
 - The **plugin content** directory has been cleaned up and [documented](../../user-guide/included-assets/).
@@ -19,7 +19,7 @@
 - Fixed unable to **select objects** in the Motorica Studio Editor viewport after changing the map in the level editor. *(UE 5.1 and above)*
 - Fixed unable to **select objects** in the Motorica Studio Editor viewport after pressing play-in-editor (PIE). *(UE 5.1 and above)*
 - Fixed unable to **select objects** in the Motorica Studio Editor viewport after a manual or auto save is issued. *(UE 5.1 and above)*
-- Fixed **potential crash** when switching to *Preset Mode* due to GC of the preset controls panel.
+- Fixed **potential crash** when switching back to *Preset Mode* due to GC of the preset controls panel.
 - Fixed **root motion** being extracted incorrectly.
 
 ## Additional Notes
