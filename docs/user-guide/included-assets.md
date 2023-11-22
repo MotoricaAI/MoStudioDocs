@@ -5,7 +5,7 @@ To view these assets, enable "Show Plugin Content" in the Content Browser settin
 
 ![](../images/content-browser-settings-show-plugin-content.png)
 
-And navigate to `Plugins > Motorica Studio > Content`.
+And navigate to `Plugins > Motorica Studio Content`.
 
 ![](../images/content-browser-folder-plugin.png)
 

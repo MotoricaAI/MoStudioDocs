@@ -10,7 +10,7 @@ First, enable "Show Plugin Content" in the Content Browser settings.
 
 ![](../images/content-browser-settings-show-plugin-content.png)
 
-Then, navigate to `Plugins > Motorica Studio > Content`. (The folders may look different depending on which version of Motorica Studio you are using.)
+Then, navigate to `Plugins > Motorica Studio Content`. (The folders may look different depending on which version of Motorica Studio you are using.)
 
 ![](../images/content-browser-folder-plugin.png)
 

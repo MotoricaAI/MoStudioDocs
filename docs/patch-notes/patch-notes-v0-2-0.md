@@ -24,4 +24,4 @@
 - Fixed **root motion** being extracted incorrectly.
 
 ## Additional Notes
-- The `IK Rig` asset "*IK_Motorica*" from *Motorica Studio v0.1.0* is now deprecated. From now on, please use `Plugin > Content > Retargeting > MotoricaStudio > IK_MoStudio`. References to the old `IK Rig` asset will need to be updated to `Plugin > Content > Retargeting > MotoricaStudio > IK_MoStudio_legacy`.
+- The `IK Rig` asset "*IK_Motorica*" from *Motorica Studio v0.1.0* is now deprecated. From now on, please use `Plugins > Motorica Studio Content > Retargeting > MotoricaStudio > IK_MoStudio`. References to the old `IK Rig` asset will need to be updated to `Plugins > Motorica Studio Content > Retargeting > MotoricaStudio > IK_MoStudio_legacy`.
