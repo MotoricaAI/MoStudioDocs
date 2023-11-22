@@ -47,10 +47,10 @@ The default "Prototype" level, which the Motorica Studio editor launches with, i
 
 The Motorica Studio editor can load other levels besides the prototype one. To load another level, you need to:
 
-1. Load the asset in the main editor window by double-clicking it.
+1. Load the level asset in the main editor window.
 2. Click the "globe icon" in the Motorica Studio editor.
 
 ![](../images/load-custom-level.png)
 
 ## Retargeting
-You can find an overview of retargeting assets on the [Retargeting](../retargeting/) docs page.
+You can find an overview of retargeting assets on the [Retargeting](../retargeting/#assets) docs page.
