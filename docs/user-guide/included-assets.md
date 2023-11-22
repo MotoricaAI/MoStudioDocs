@@ -1,5 +1,5 @@
 # Included assets
-The plugin comes with premade assets that you can work with. For example, you can preview example MoGen-generated animations or retarget them onto MetaHuman characters using the supplied IK Rig and IK Retargeter asset.
+The plugin provides demo assets that you can use. For example, you can preview various pre-generated `Animation Sequence` assets or retarget them onto MetaHuman characters using the supplied `IK Rig` and `IK Retargeter` assets.
 
 To view these assets, enable "Show Plugin Content" in the Content Browser settings.
 
@@ -25,7 +25,7 @@ Contains assets (textures, skeleton, materials, etc.) of various characters that
 
 ![](../images/content-browser-folder-plugin-characters.png)
 
-- **MetaHuman** - (Target skeleton) Used for retargeting to MetaHuman characters. Includes the default male body mesh. (Other meshes are not included to keep the plugin file small.)
+- **MetaHuman** - (Target skeleton) Used for retargeting to MetaHuman characters. Includes the default male body mesh. (Other meshes like the face are not included to keep the plugin file small.)
 - **Mixamo** - (Target skeleton) Used for retargeting to Mixamo characters. Multiple characters are included with different body proportions.
 - **MotoricaStudio** - (Source skeleton) This is the default Motorica Studio character from which animations are retargeted. All MoGen-generated animations are applied to this character by default.
 - **UnrealEngine** - (Target skeleton) Used for retargeting to UE5 mannequin. Includes the default male / female body meshes.
@@ -41,14 +41,16 @@ Various assets used internally by the plugin. You do not need to modify or use t
 Example levels that you can use inside the Motorica Studio editor.
 
 The default "Prototype" level, which the Motorica Studio editor launches with, is included here. To force Motorica Studio editor to launch with a different level than the provided one, you can:
+
 - Modify the contents of `Level_Prototyping`
 - Create your own level asset named `Level_Prototyping` and copy (or move) it to `Levels > Prototyping`. You will have to rename the original prototype level asset.
 
 The Motorica Studio editor can load other levels besides the prototype one. To load another level, you need to:
+
 1. Load the asset in the main editor window by double-clicking it.
 2. Click the "globe icon" in the Motorica Studio editor.
 
 ![](../images/load-custom-level.png)
 
 ## Retargeting
-You can find an explanation of retargeting assets in the [Retargeting](../retargeting/) docs page.
+You can find an overview of retargeting assets on the [Retargeting](../retargeting/) docs page.
