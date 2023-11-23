@@ -24,4 +24,5 @@
 - Fixed **root motion** being extracted incorrectly.
 
 ## Additional Notes
+- *Custom* editor mode is now called *Keyframe* editor mode.
 - The `IK Rig` asset "*IK_Motorica*" from *Motorica Studio v0.1.0* is now deprecated. From now on, please use `Plugins > Motorica Studio Content > Retargeting > MotoricaStudio > IK_MoStudio`. References to the old `IK Rig` asset will need to be updated to `Plugins > Motorica Studio Content > Retargeting > MotoricaStudio > IK_MoStudio_legacy`.
