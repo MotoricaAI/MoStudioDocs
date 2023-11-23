@@ -1,4 +1,4 @@
-# Included assets
+# Demo Assets
 The plugin provides demo assets that you can use. For example, you can preview various pre-generated `Animation Sequence` assets or retarget them onto MetaHuman characters using the supplied `IK Rig` and `IK Retargeter` assets.
 
 To view these assets, enable "Show Plugin Content" in the Content Browser settings.
