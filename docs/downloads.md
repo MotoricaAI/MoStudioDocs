@@ -1,11 +1,15 @@
 # Downloads
 ## Motorica Studio
-Motorica Studio is compatible with:
 
-- **Blueprint**-only projects.
-- **C++ projects** set to the *Development Editor* build configuration. (Other build configurations will not compile.)
+Operating System
 
-Download the UE plugin using the links below.
+- Only *Windows* is currently supported.
+
+Unreal Engine
+
+- Multiple UE versions are supported (listed further below).
+- Blueprint-only projects.
+- C++ projects set to *Development Editor* build configuration. (Other build configurations will not compile.)
 
 ### v0.2.0
 
