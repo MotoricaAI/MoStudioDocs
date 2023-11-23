@@ -9,7 +9,7 @@
     - Toggle the checkbox or double-click the style row to enable / disable style blending.
     - Search styles using the search field at the top.
     - The Style Browser state is persistent between editor modes.
-- The **editor mode selector** now displays the name and icon of the active editor mode (e.g. *Preset* or *Custom* mode).
+- The **editor mode selector** now displays the name and icon of the active editor mode (*Keyframe*, *Preset*, etc.).
 - Most toolbar and tab **icons** in the Motorica Studio Editor have been revised.
 - The **plugin content** directory has been cleaned up and [documented](../../user-guide/included-assets/).
 
