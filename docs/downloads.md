@@ -2,8 +2,8 @@
 ## Motorica Studio
 Motorica Studio is compatible with:
 
-- Blueprint-only projects
-- C++ projects set to the *Development Editor* build configuration
+- **Blueprint**-only projects.
+- **C++ projects** set to the *Development Editor* build configuration. (Other build configurations will not compile.)
 
 Download the UE plugin using the links below.
 
