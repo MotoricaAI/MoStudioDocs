@@ -1,6 +1,6 @@
 # Patch Notes - v0.2.0
 ## New
-- Added **demo animations** for 6 styles and 8 presets. *([more info](../../user-guide/included-assets/#animations))*
+- Added **demo animation assets** for 6 styles and 8 presets. *([more info](../../user-guide/included-assets/#animations))*
 - Added **demo retargeting assets** to demonstrate retargeting from the Motorica skeleton to MetaHuman, Mixamo, and UE5 mannequin. ([more info](../../user-guide/retargeting/#assets))
 - Set up a [**website**](https://motoricaai.github.io/MoStudioDocs/) for storing Motorica Studio documentation.
 
