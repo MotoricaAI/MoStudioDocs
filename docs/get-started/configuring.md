@@ -1,0 +1,3 @@
+# Configuring the plugin
+
+Text
