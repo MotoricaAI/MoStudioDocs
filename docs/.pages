@@ -1,7 +1,7 @@
 nav:
     - index.md
     - get-started
-    - how-to-guides
+    - How-To: how-to-guides
     - tutorials
     - technical-reference
     - technical-reference-editor
