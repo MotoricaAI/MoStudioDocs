@@ -1,3 +1,3 @@
-# Installing the plugin
+# Installing
 
 Text

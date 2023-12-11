@@ -1,0 +1,5 @@
+nav:
+    - about.md
+    - installing.md
+    - configuring.md
+    - ...

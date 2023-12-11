@@ -1,4 +1,4 @@
-# Introduction
+# Home
 
 This website contains user documentation for *Motorica Studio* (*MoStudio* for short).
 

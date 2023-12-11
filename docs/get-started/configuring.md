@@ -1,3 +1,3 @@
-# Configuring the plugin
+# Configuring
 
 Text

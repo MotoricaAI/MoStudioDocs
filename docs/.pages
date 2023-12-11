@@ -1,0 +1,11 @@
+nav:
+    - index.md
+    - get-started
+    - how-to-guides
+    - tutorials
+    - technical-reference
+    - technical-reference-editor
+    - downloads.md
+    - patch-notes
+    - privacy-policy.md
+    - ...
