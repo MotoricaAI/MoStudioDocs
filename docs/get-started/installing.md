@@ -8,6 +8,13 @@ Motorica Studio is available for download only on *Windows*. If you think that M
 
 Make sure that you have installed an Unreal Engine version that is supported by Motorica Studio. A list of supported UE versions is available [here](/downloads).
 
+## Register at Motorica
+
+To use Motorica Studio, you will first need to register an account at [Motorica](https://www.motorica.ai/). For your security, please keep the following in mind when creating your password:
+
+- Use a combination of **numbers**, **symbols**, and **upper and lower case letters**.
+- Password length should be **16 characters or more**.
+- Your password is **unique** (used only for Motorica and nowhere else).
 
 ## Download Motorica Studio
 
@@ -47,9 +54,9 @@ Note that each UE project has its own set of enabled plugins and plugin settings
 
 3. Enable the plugin via `Edit > Plugins > Installed | Animation > Motorica Studio`
 4. Restart the UE editor
-5. [Configure Motorica Studio](./#configuring-motorica-studio)
+5. [Configure Motorica Studio](./#configure-motorica-studio)
 
-## Configuring Motorica Studio
+## Configure Motorica Studio
 
 At this stage, you should have enabled Motorica Studio in your project. You will know this was successful if you have the following button in the level editor toolbar:
 
