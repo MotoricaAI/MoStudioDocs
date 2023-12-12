@@ -2,13 +2,13 @@
 ## New
 - Added **demo animation assets** for 6 styles and 8 presets. *([more info](../../user-guide/included-assets/#animations))*
 - Added **demo retargeting assets** to demonstrate retargeting from the Motorica skeleton to MetaHuman, Mixamo, and UE5 mannequin. ([more info](../../user-guide/retargeting/#assets))
-- Set up a [**website**](https://motoricaai.github.io/MoStudioDocs/) for storing Motorica Studio documentation.
-
-## Improvement
 - Redesigned the **Style Browser** UI to show a hierarchical view of styles and style categories.
     - Toggle the checkbox or double-click the style row to enable / disable style blending.
     - Search styles using the search field at the top.
     - The Style Browser state is persistent between editor modes.
+- Set up a [**website**](https://motoricaai.github.io/MoStudioDocs/) for storing Motorica Studio documentation.
+
+## Improvement
 - The **editor mode selector** now displays the name and icon of the active editor mode (*Keyframe*, *Preset*, etc.).
 - Most toolbar and tab **icons** in the Motorica Studio Editor have been revised.
 - The **plugin content** directory has been cleaned up and [documented](../../user-guide/included-assets/).

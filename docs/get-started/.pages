@@ -1,5 +1,4 @@
 nav:
-    - about.md
+    - index.md
     - installing.md
-    - configuring.md
     - ...
