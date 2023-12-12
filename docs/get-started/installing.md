@@ -1,4 +1,4 @@
-# Installing Motorica Studio
+# Install Motorica Studio
 
 Motorica Studio currently does not follow a strict release cycle. You can keep up to date with the latest changes through the [patch notes](/patch-notes) and by joining our [Discord](https://discord.com/invite/KWRqNzcjYA) server for release announcements.
 
