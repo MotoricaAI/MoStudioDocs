@@ -1,0 +1,7 @@
+nav:
+    - Home: index.md
+    - Get Started: get-started
+    - Downloads: downloads.md
+    - Patch Notes: patch-notes
+    - Privacy Policy: privacy-policy.md
+    - ...

@@ -1,28 +1,73 @@
-# Retargeting
-Motorica Studio includes assets that demonstrate retargeting from the Motorica character to other characters.
+# Plugin Content
 
-For a list of all plugin assets, go [here](../included-assets/).
+The plugin provides demo assets that you can use. For example, you can preview various pre-generated `Animation Sequence` assets or retarget them onto MetaHuman characters using the supplied `IK Rig` and `IK Retargeter` assets.
 
-*Note: Retargeting in UE 5.0 is not ideal. You are encouraged to use UE 5.1 and above. Example issues seen [here](https://forums.unrealengine.com/t/retargeting-root-bone-ue5/506512) and [here](https://forums.unrealengine.com/t/ue5-retargeted-root-motion-animations-have-innacurate-pelvis-hip-placement/514656)*.
+To view these assets, enable "Show Plugin Content" in the Content Browser settings.
 
-## Assets
-First, enable "Show Plugin Content" in the Content Browser settings.
+![](../assets/images/ue-content-browser-settings-show-plugin-content.png)
 
-![](../images/content-browser-settings-show-plugin-content.png)
+And navigate to `Plugins > Motorica Studio Content`.
 
-Then, navigate to `Plugins > Motorica Studio Content`. (The folders may look different depending on which version of Motorica Studio you are using.)
+![](../assets/images/ue-content-browser-folder-plugin.png)
 
-![](../images/content-browser-folder-plugin.png)
+!!! note
+    The folder names may be different depending on which plugin version you are using.
 
-### Retargeting folder
+## Animations
 
-![](../images/content-browser-folder-plugin-retargeting.png)
+![](../assets/images/ue-content-browser-folder-plugin-animations.png)
+
+This folder contains animations adapted to the Motorica character, generated using MoGen inside the Motorica Studio editor. You can preview and use these animations without having to open the Motorica Studio editor at all!
+
+!!! note
+    To retarget these animations to non-Motorica characters, read about how to use the supplied retargeting assets [here](retargeting.md).
+
+## Characters
+
+![](../assets/images/ue-content-browser-folder-plugin-characters-2.png)
+
+Contains assets (textures, skeleton, materials, etc.) of various characters that you can retarget MoGen-generated animations to.
+
+![](../assets/images/ue-content-browser-folder-plugin-characters.png)
+
+- **MetaHuman** - (Target skeleton) Used for retargeting to MetaHuman characters. Includes the default male body mesh. (Other meshes like the face are not included to keep the plugin file small.)
+- **Mixamo** - (Target skeleton) Used for retargeting to Mixamo characters. Multiple characters are included with different body proportions.
+- **MotoricaStudio** - (Source skeleton) This is the default Motorica Studio character from which animations are retargeted. All MoGen-generated animations are applied to this character by default.
+- **UnrealEngine** - (Target skeleton) Used for retargeting to UE5 mannequin. Includes the default male / female body meshes.
+
+## Internal
+
+![](../assets/images/ue-content-browser-folder-plugin-internal.png)
+
+Various assets used internally by the plugin. You do not need to modify or use these assets.
+
+## Levels
+
+![](../assets/images/ue-content-browser-folder-plugin-levels.png)
+
+Example levels that you can use inside the Motorica Studio editor.
+
+The default "Prototype" level, which the Motorica Studio editor launches with, is included here. To force Motorica Studio editor to launch with a different level than the provided one, you can:
+
+- Modify the contents of `Level_Prototyping`
+- Create your own level asset named `Level_Prototyping` and copy (or move) it to `Levels > Prototyping`. You will have to rename the original prototype level asset.
+
+The Motorica Studio editor can load other levels besides the prototype one. To load another level, you need to:
+
+1. Load the level asset in the main editor window.
+2. Click the "globe icon" in the Motorica Studio editor.
+
+![](../assets/images/workflow-load-custom-level.png)
+
+## Retargeting
+
+![](../assets/images/ue-content-browser-folder-plugin-retargeting.png)
 
 - **BP_RuntimeRTG_Base** - A spawnable `Actor Blueprint` that sets up runtime retargeting between the Motorica skeleton and other skeletons. This blueprint serves as a base which other blueprints can extend from.
 - **LS_RuntimeRTG** - A `Level Sequence` asset demonstrating runtime retargeting from the Motorica skeleton to a set of other skeletons.
 
 ### MetaHuman
-![](../images/content-browser-folder-plugin-retargeting-metahuman.png)
+![](../assets/images/ue-content-browser-folder-plugin-retargeting-metahuman.png)
 
 - **ABP_metahuman_MoStudio** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to the MetaHuman skeleton. It uses the `RTG_metahuman_MoStudio` IK Retargeter asset.
 - **BP_RuntimeRTG_metahuman_MoStudio** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to the MetaHuman skeleton using `ABP_metahuman_MoStudio`.
@@ -30,7 +75,7 @@ Then, navigate to `Plugins > Motorica Studio Content`. (The folders may look dif
 - **RTG_metahuman_MoStudio** - `IK Retargeter` asset that retargets from the `IK_MoStudio` IK Rig to the `IK_metahuman_MoStudio` IK Rig. The MetaHuman retarget pose is edited to match the T-pose of the Motorica skeleton. IK retargeting is disabled.
 
 ### Mixamo
-![](../images/content-browser-folder-plugin-retargeting-mixamo-mutant.png)
+![](../assets/images/ue-content-browser-folder-plugin-retargeting-mixamo-mutant.png)
 
 - **ABP_Mixamo_Mutant** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to the Mixamo Mutant skeleton. It uses the `RTG_Mixamo_Mutant` IK Retargeter asset.
 - **BP_RuntimeRTG_Mixamo_Mutant** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to the Mixamo Mutant skeleton using `ABP_Mixamo_Mutant`.
@@ -40,7 +85,7 @@ Then, navigate to `Plugins > Motorica Studio Content`. (The folders may look dif
 The assets above are for the *Mixamo Mutant* character. Other mixamo characters have similar assets.
 
 ### MotoricaStudio
-![](../images/content-browser-folder-plugin-retargeting-motoricastudio.png)
+![](../assets/images/ue-content-browser-folder-plugin-retargeting-motoricastudio.png)
 
 - **ABP_MoStudio** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to itself. It uses the `RTG_MoStudio` IK Retargeter asset.
 - **BP_RuntimeRTG_MoStudio** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to itself using `ABP_MoStudio`.
@@ -49,20 +94,9 @@ The assets above are for the *Mixamo Mutant* character. Other mixamo characters 
 - **RTG_MoStudio** - `IK Retargeter` asset that retargets from the `IK_MoStudio` IK Rig to itself. This is mainly used for debugging purposes.
 
 ### UE5 Mannequin
-![](../images/content-browser-folder-plugin-retargeting-ue5mannequin.png)
+![](../assets/images/ue-content-browser-folder-plugin-retargeting-ue5mannequin.png)
 
 - **ABP_Mannequin_MoStudio** - `Animation Blueprint` used for runtime retargeting from the Motorica skeleton to the UE5 mannequin skeleton. It uses the `RTG_Mannequin_MoStudio` IK Retargeter asset.
 - **BP_RuntimeRTG_Mannequin_MoStudio** - A spawnable `Actor Blueprint` that extends from `BP_RuntimeRTG_Base`. It sets up runtime retargeting from the Motorica skeleton to the UE5 mannequin skeleton using `ABP_Mannequin_MoStudio`.
 - **IK_Mannequin_MoStudio** - `IK Rig` asset that configures the default UE5 mannequin skeleton for retargeting. This is identical to the default UE5 mannequin IK Rig *(confirmed in UE 5.2)*.
 - **RTG_Mannequin_MoStudio** - `IK Retargeter` asset that retargets from the `IK_MoStudio` IK Rig to the `IK_Mannequin_MoStudio` IK Rig. The UE5 mannequin retarget pose is edited to match the T-pose of the Motorica skeleton. IK retargeting is disabled.
-
-## How-To
-A detailed guide on how to do retargeting is missing. For now, you are encouraged to explore the included [retargeting assets](./#assets) in the Content Browser yourself. Open them to see how retargeting is configured, specifically the `IK Rig` and `IK Retargeter` assets.
-
-You can also refer to these YouTube tutorials for more information:
-
-- [Motorica - Generative AI for animation - Unreal](https://www.youtube.com/watch?v=-UY5rom6LGE)
-- [Motorica - Generative AI for animation - Plugin Unreal](https://www.youtube.com/watch?v=3qmHzPH06O4)
-- [Motorica a Metahuman con Mixamo Animation Retargeting 2](https://www.youtube.com/watch?v=R5euNHUcUec&t)
-
-Lastly, feel free to reach out on our [Discord](https://discord.com/invite/KWRqNzcjYA) server.

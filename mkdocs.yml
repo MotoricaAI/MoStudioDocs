@@ -1,3 +1,14 @@
 site_name: Motorica Studio Documentation
 theme:
   name: material
+  features:
+    - navigation.footer
+plugins:
+  - search
+  - awesome-pages
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+        permalink: "🔗&#xFE0E;"

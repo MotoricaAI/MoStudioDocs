@@ -1,0 +1,9 @@
+nav:
+    - Introduction: index.md
+    - Install Motorica Studio: installing.md
+    - Plugin Content: included-assets.md
+    - Editor User Interface: ui-motorica-studio-editor.md
+    - Editor Modes: ui-editor-modes.md
+    - Creating Animations: create-animations.md
+    - Retargeting Animations: retargeting.md
+    - ...
