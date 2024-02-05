@@ -4,4 +4,5 @@ Below you can locate the patch notes for each Motorica Studio version released. 
 
 ## Patch notes
 
+- [v0.3.0](patch-notes-v0-3-0.md)
 - [v0.2.0](patch-notes-v0-2-0.md)
