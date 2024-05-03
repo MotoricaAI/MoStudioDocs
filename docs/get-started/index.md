@@ -2,9 +2,10 @@
 > [!NOTE]
 > Are you looking for our web-based **Style Viewer**, use [this link](http://mogen.motorica.ai).
 
-## About
+## About &nbsp;[<kbd> <br> Download Plugin <br> </kbd>](installing.md#download-motorica-studio)
 
 Motorica Studio is a software program that integrates Motorica's animation generation and editing tools inside Unreal Engine 5. The UE integration is in the form of a precompiled plugin added to your UE project.
+<br>
 
 ![](../assets/images/motorica-studio-editor-example-1.png)
 
