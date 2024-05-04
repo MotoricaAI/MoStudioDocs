@@ -14,10 +14,9 @@ To get started with Motorica Studio, visit the [Installation](get-started/index.
 For other software use we recommend using the web based [Style Viewer](https://mogen.motorica.ai/)
 
 Other Guides:
-    - [Maya quickstart guide](https://www.motorica.ai/s/Quickstart_guide_maya.pdf)
-    - [Blender quickstart guide](https://www.motorica.ai/s/Quickstart_guide_blender.pdf)
-    - [Houdini tutorial](https://youtu.be/m5ZcMsATAfg)
-    - [Maya tutorial](https://vimeo.com/831841460)
-
+- [Maya quickstart guide](https://www.motorica.ai/s/Quickstart_guide_maya.pdf)
+- [Blender quickstart guide](https://www.motorica.ai/s/Quickstart_guide_blender.pdf)
+- [Houdini tutorial](https://youtu.be/m5ZcMsATAfg)
+- [Maya tutorial](https://vimeo.com/831841460)
 
 [Terms of Service](https://www.motorica.ai/terms-of-service)
