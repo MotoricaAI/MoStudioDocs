@@ -1,7 +1,7 @@
 # Home
 
 !!! note
-    :information_source: Use our web-based [Style Viewer](http://mogen.motorica.ai).
+    Find our web-based [Style Viewer](http://mogen.motorica.ai).
     
 Welcome to the Motorica's documentation website!
 
