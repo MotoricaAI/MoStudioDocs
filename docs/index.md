@@ -9,7 +9,7 @@ Visit [Motorica.ai](https://www.motorica.ai/) to learn more and join our [Discor
 To get started with Motorica Studio, visit the [Installation](get-started/index.md) page .
 
 
-### Download the Unreal Engine plugin [here](/downloads.md).
+### Download the Unreal Engine plugin [here](../downloads.md).
 
 For other software use we recommend using the web based [Style Viewer](https://mogen.motorica.ai/)
 
