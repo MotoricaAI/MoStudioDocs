@@ -154,4 +154,3 @@ To export the animation as FBX:
     !!! note
         The image above is using UE 5.3. Other UE versions may show a different UI.
    
-[Subscribe to our newsletter](#){ .md-button }
