@@ -25,3 +25,9 @@ Get started with Motorica Studio by first setting up the plugin:
 - [Download](installing.md#download-motorica-studio) Motorica Studio
 - [Install](installing.md#install-guides) Motorica Studio
 - [Configure](installing.md#configure-motorica-studio) Motorica Studio
+
+Other Guides:
+- [Maya quickstart guide](https://www.motorica.ai/s/Quickstart_guide_maya.pdf)
+- [Blender quickstart guide](https://www.motorica.ai/s/Quickstart_guide_blender.pdf)
+- [Houdini tutorial](https://youtu.be/m5ZcMsATAfg)
+- [Maya tutorial](https://vimeo.com/831841460)
