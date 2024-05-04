@@ -5,9 +5,11 @@
     
 Welcome to the Motorica's documentation website!
 
-### Download the Unreal Engine plugin [here](https://mostudiodocs.pages.dev/downloads/).
+### Download Motorica Studio for Unreal Engine
 
 *Motorica Studio* is a software program that integrates Motorica's animation generation and editing tools inside Unreal Engine 5.
+
+[Download UE Plugin](https://mostudiodocs.pages.dev/downloads/){ .md-button .md-button--primary }
 
 To get started with Motorica Studio, visit the [Installation](get-started/index.md) page .
 
