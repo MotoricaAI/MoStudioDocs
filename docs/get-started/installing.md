@@ -36,7 +36,7 @@ Motorica Studio offers compiled binaries for different UE versions for both *blu
 
 3. Enable the plugin via `Edit > Plugins > Installed | Animation > Motorica Studio`
 4. Restart the UE editor
-5. [Configure Motorica Studio](#configuring-motorica-studio)
+5. [Configure Motorica Studio](#configure-motorica-studio)
 
 Note that each UE project has its own set of enabled plugins and plugin settings. As such, you will need to enable and configure Motorica Studio in each project *separately*.
 
