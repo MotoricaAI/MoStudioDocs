@@ -1,6 +1,8 @@
 site_name: Motorica Studio Documentation
 theme:
   name: material
+  palette:
+    primary: custom
   features:
     - navigation.footer
 plugins:
