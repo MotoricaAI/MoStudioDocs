@@ -19,7 +19,7 @@ For other software we recommend using the web based [Style Viewer](https://mogen
 
 <div class="grid cards" markdown>
 
-:simple-autodeskmaya: [Maya quickstart guide](https://www.motorica.ai/s/Quickstart_guide_maya.pdf)
+:fontawesome-brands-html5: [Maya quickstart guide](https://www.motorica.ai/s/Quickstart_guide_maya.pdf)
 :simple-blender: [Blender quickstart guide](https://www.motorica.ai/s/Quickstart_guide_blender.pdf)
 :simple-houdini: [Houdini tutorial](https://youtu.be/m5ZcMsATAfg)
 :simple-autodeskmaya: [Maya tutorial](https://vimeo.com/831841460)
