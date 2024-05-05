@@ -15,7 +15,7 @@ To get started with Motorica Studio, visit the [Installation](get-started/index.
 
 ### Other Software Guides:
 
-For other software we recommend using the web based [Style Viewer](https://mogen.motorica.ai/)
+For other software we recommend using the web based [Style Viewer :material-monitor-shimmer:](https://mogen.motorica.ai/)
 
 <div class="grid cards" markdown>
 
