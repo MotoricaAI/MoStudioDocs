@@ -28,4 +28,4 @@ For other software we recommend using the web based [Style Viewer :material-moni
 
 Visit [Motorica.ai](https://www.motorica.ai/) to learn more and join our [Discord](https://discord.com/invite/KWRqNzcjYA) community to ask questions and share feedback!
 
-[Terms of Service](https://www.motorica.ai/terms-of-service)
+[Terms of Service](ToS.md)
