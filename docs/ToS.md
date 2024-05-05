@@ -1,4 +1,4 @@
-# TERMS OF SERVICE (ToS) FOR 3D ANIMATION SERVICE
+# TERMS OF SERVICE (ToS)
 
 Thank you for using the Motorica platform (the “Service”). These Terms of Service (the “Agreement”) explain what rights you have with respect to animation assets which you might generate with the Service (the “Assets”), your use of the Services, and other important topics like arbitration. Please read it carefully. Our privacy policy outlines how we handle your data here
 
