@@ -12,8 +12,8 @@ For other software we recommend using the web based [Style Viewer :material-moni
 
 <div class="grid cards" markdown>
 
-- :simple-autodeskmaya: [Maya quickstart guide](https://www.motorica.ai/s/Quickstart_guide_maya.pdf)
-- :simple-blender: [Blender quickstart guide](https://www.motorica.ai/s/Quickstart_guide_blender.pdf)
+- :simple-autodeskmaya: [Maya quickstart guide](https://static1.squarespace.com/static/63650e2ece9c2f59c302558c/t/642c26e43c05c96c26046ebe/1680615141379/Quickstart_guide_maya.pdf)
+- :simple-blender: [Blender quickstart guide](https://static1.squarespace.com/static/63650e2ece9c2f59c302558c/t/642c2709c9ab035489441a8c/1680615178980/Quickstart_guide_blender.pdf)
 - :simple-houdini: [Houdini tutorial](https://youtu.be/m5ZcMsATAfg)
 - :simple-autodeskmaya: [Maya tutorial](https://vimeo.com/831841460)
 
