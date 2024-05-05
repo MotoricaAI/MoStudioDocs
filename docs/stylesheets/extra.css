@@ -1,5 +1,5 @@
 :root {
-  --md-primary-fg-color:        #2013ad;
+  --md-primary-fg-color:        linear-gradient(90deg, rgba(11,12,66,1) 0%, rgba(19,14,127,1) 35%, rgba(52,23,196,0.9346332282913166) 100%);
   --md-primary-fg-color--light: #3417c4;
   --md-primary-fg-color--dark:  #0b0c42;
 }
