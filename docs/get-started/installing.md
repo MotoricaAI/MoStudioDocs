@@ -10,7 +10,7 @@ Make sure that you have installed an Unreal Engine version that is supported by 
 
 ## Register at Motorica
 
-To use Motorica Studio, you will first need to register an account at [Motorica](https://motorica.ai/mogen). For your security, please keep the following in mind when creating your password:
+To use Motorica Studio, you will first need to register an account at [Motorica](https://mogen.motorica.ai/). For your security, please keep the following in mind when creating your password:
 
 - Use a combination of **numbers**, **symbols**, and **upper and lower case letters**.
 - Password length should be **16 characters or more**.
