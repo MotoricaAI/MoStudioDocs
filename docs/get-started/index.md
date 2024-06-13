@@ -5,18 +5,18 @@
 
 ## About
 
-Motorica Studio is a software program that integrates Motorica's animation generation and editing tools inside Unreal Engine 5. The UE integration is in the form of a precompiled plugin added to your UE project.
+Motorica Studio is an Unreal Engine 5+ plugin that integrates Motorica's animation generation and editing tools inside Unreal Engine. The plugin is precompiled and added to your UE project or folder.
 <br>
 
-![](../assets/images/motorica-studio-editor-example-1.png)
+![](../assets/images/ms-editor.png)
 
 ## Discord Community and Help
 
-We have set up a [Discord](https://discord.com/invite/KWRqNzcjYA) server with the goal of growing a community of enthusiastic individuals that wish to help each other out. This is a place where you can **ask questions** about animation and generative AI, **share feedback** with the Motorica team, or **report issues** that you experience with Motorica Studio.
+We have a growing [Discord](https://discord.com/invite/KWRqNzcjYA) community of enthusiastic members (over 3k!) with whom you can chat. The Motorica team is also present, so you can contact them directly if you want to ask **questions**, share **feedback** or report any **issues**.
 
-The following button in Motorica Studio will quickly take you to our Discord server:
+This button in Motorica Studio will take you there:
 
-![](../assets/images/motorica-studio-editor-toolbar-community-button.png)
+![](../assets/images/ms-editor-toolbar-community-button.png)
 
 ## Next steps
 
@@ -28,7 +28,8 @@ Get started with Motorica Studio by first setting up the plugin:
 - [Configure](installing.md#configure-motorica-studio) Motorica Studio
 
 Other Guides:
-- [Maya quickstart guide](https://www.motorica.ai/s/Quickstart_guide_maya.pdf)
-- [Blender quickstart guide](https://www.motorica.ai/s/Quickstart_guide_blender.pdf)
+
+- [Maya quickstart guide](https://static1.squarespace.com/static/63650e2ece9c2f59c302558c/t/642c26e43c05c96c26046ebe/1680615141379/Quickstart_guide_maya.pdf)
+- [Blender quickstart guide](https://static1.squarespace.com/static/63650e2ece9c2f59c302558c/t/642c2709c9ab035489441a8c/1680615178980/Quickstart_guide_blender.pdf)
 - [Houdini tutorial](https://youtu.be/m5ZcMsATAfg)
 - [Maya tutorial](https://vimeo.com/831841460)

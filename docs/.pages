@@ -1,7 +1,7 @@
 nav:
-    - Home: index.md
+    - Overview: index.md
     - Get Started: get-started
+    - How-to-guides: how-to-guides
     - Downloads: downloads.md
-    - Patch Notes: patch-notes
-    - Privacy Policy: privacy-policy.md
+    - Changelog: changelog.md
     - ...

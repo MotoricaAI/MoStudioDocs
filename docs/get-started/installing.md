@@ -1,26 +1,26 @@
 # Install Motorica Studio
 
-Motorica Studio currently does not follow a strict release cycle. You can keep up to date with the latest changes through the [patch notes](../patch-notes/index.md) and by joining our [Discord](https://discord.com/invite/KWRqNzcjYA) server for release announcements.
+Motorica Studio currently does not follow a strict release cycle. Stay updated by joining our [Discord](https://discord.com/invite/KWRqNzcjYA) server for release announcements and check the latest changes in the [patch notes](../changelog.md).
 
 ## System Requirements
 
-Motorica Studio is available for download only on *Windows*. If you think that Motorica Studio should be available on other platforms (Linux, macOS), please let us know on [Discord](https://discord.com/invite/KWRqNzcjYA).
-
-Make sure that you have installed an Unreal Engine version that is supported by Motorica Studio. A list of supported UE versions is available [here](../downloads.md).
+Unreal Engine needs to be installed to use Motorica Studio. A list of supported UE versions and target platforms is available in the [Downloads](../downloads.md) page.
 
 ## Register at Motorica
 
-To use Motorica Studio, you will first need to register an account at [Motorica](https://mogen.motorica.ai/). For your security, please keep the following in mind when creating your password:
+Motorica Studio requires an account. To register, go to the [Motorica website](https://www.motorica.ai/).
 
-- Use a combination of **numbers**, **symbols**, and **upper and lower case letters**.
-- Password length should be **16 characters or more**.
-- Your password is **unique** (used only for Motorica and nowhere else).
+For your security:
+
+- Use a combination of **numbers**, **symbols**, and **upper and lower case letters** in your password.
+- Use a password that is **16 characters long** or more.
+- Use a **unique** password (i.e. you have not used the password anywhere else).
 
 ## Download Motorica Studio
 
-Motorica Studio offers compiled binaries for different UE versions for both *blueprint* and *C++* projects. Choose and download a version of Motorica Studio from the [Downloads](../downloads.md) page.
+Go to the [Downloads](../downloads.md) page.
 
-## Install Guides
+## Install Motorica Studio
 ### Install for All Projects
 
 1. Extract the downloaded `.zip` to Unreal Engine's installation folder.
@@ -38,7 +38,8 @@ Motorica Studio offers compiled binaries for different UE versions for both *blu
 4. Restart the UE editor
 5. [Configure Motorica Studio](#configure-motorica-studio)
 
-Note that each UE project has its own set of enabled plugins and plugin settings. As such, you will need to enable and configure Motorica Studio in each project *separately*.
+!!! note
+    Each UE project has its own list of enabled plugins and plugin settings. Therefore, you must enable and configure Motorica Studio *separately* for each project.
 
 ### Install for a Single Project
 
@@ -58,23 +59,33 @@ Note that each UE project has its own set of enabled plugins and plugin settings
 
 ## Configure Motorica Studio
 
-At this stage, you should have enabled Motorica Studio in your project. You will know this was successful if you have the following button in the level editor toolbar:
+If Motorica Studio was installed correctly, you will see this button in the level editor toolbar:
 
-![](../assets/images/level-editor-toolbar-motorica-button.png)
+![](../assets/images/ue-level-editor-toolbar-motorica-button.png)
 
 ### Open Plugin Settings
 
-Settings are opened at `Edit > Project Settings > Plugins > Motorica Studio`.
+Open the Motorica Studio editor and press the "Settings" button in the toolbar:
+
+![](../assets/images/ms-editor-toolbar-settings-button.png)
+
+Alternatively, navigate to `Edit > Project Settings > Plugins > Motorica Studio Networking`.
 
 ![](../assets/images/menu-edit-project-settings.png)
 ![](../assets/images/project-settings-plugins-motorica-studio.png)
 
 ### Configuration Values
 
-- **API Location** - Write `https://mogen.motorica.ai/api/v1/` without any spaces.
-- **Email** - Enter the email for your Motorica account. (Register on the [Motorica website](https://www.motorica.ai/)).
-- **Password** - Enter the password for your Motorica account. (Register on the [Motorica website](https://www.motorica.ai/)).
-    - *Warning: The password is stored in plain-text in the plugin config file at `YourProjectRoot > Config > DefaultMotoricaStudioConfig.ini`. You are advised to use a unique password that you do not use anywhere else.*
+- **API Location** - Write `https://mogen.motorica.ai/api/v1/`.
+- **Email** - Write your Motorica account email.
+- **Password** - Write your Motorica account password.
+
+    !!! warning
+        **The password is stored in plain-text in the plugin config file** at `YourProjectRoot > Config > DefaultMotoricaStudioConfig.ini`.
+        
+        Make sure to use a **unique password**!
+
+        Make sure to **delete the config file when copying your project**!
 
 ![](../assets/images/motorica-studio-settings-example.png)
 
@@ -84,7 +95,7 @@ Verify that you entered your information correctly by logging in from the Motori
 
 1. Open the *Motorica Studio editor*.
 
-    ![](../assets/images/level-editor-toolbar-motorica-button.png)
+    ![](../assets/images/ue-level-editor-toolbar-motorica-button.png)
 
 2. Login from the *Networking* panel. 
 
@@ -92,4 +103,4 @@ Verify that you entered your information correctly by logging in from the Motori
 
     If you see **"Login successful!"**, then your configuration was correct.
 
-    If you see **"Login failed!"**, your configuration might be wrong. Please double-check the information in the plugin settings and try again. If the issue persists, reach out to us on [Discord](https://discord.com/invite/KWRqNzcjYA).
+    If you see **"Login failed!"**, your configuration might be wrong. Please double-check the information in the plugin settings and try again. If the issue persists, reach out on [Discord](https://discord.com/invite/KWRqNzcjYA).

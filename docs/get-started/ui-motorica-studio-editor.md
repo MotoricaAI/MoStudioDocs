@@ -2,16 +2,13 @@
 
 The *Motorica Studio Editor* window is the place which houses all the main tools that Motorica Studio offers. This is where you can generate animations for your characters.
 
-![](../assets/images/ms-editor-overview.png)
-
-!!! note
-    When opening the editor for the first time, some tabs might be floating instead of being docked in the editor. You can copy the layout above or find a new one that suits your workflow the best.
+![](../assets/images/ms-editor.png)
 
 ## Launch the Editor
 
 To open the Motorica Studio Editor, click the button with Motorica's logo in the Level Editor toolbar:
 
-![](../assets/images/ms-editor-open-button.png)
+![](../assets/images/ue-level-editor-toolbar-motorica-button.png)
 
 You can also open the window via `Window > Motorica Editor` from the main window:
 
@@ -19,7 +16,7 @@ You can also open the window via `Window > Motorica Editor` from the main window
 
 ## Login to Motorica
 
-Motorica Studio requires internet connection to work properly. Make sure that you have [configured Motorica Studio](installing.md#configure-motorica-studio) correctly and login via the *Networking* panel:
+Motorica Studio requires an internet connection. Make sure that you have [configured Motorica Studio](installing.md#configure-motorica-studio) correctly and login via the *Networking* panel:
 
 ![](../assets/gifs/workflow-ms-editor-login.gif)
 
@@ -54,7 +51,7 @@ There are two buttons that let you switch the current level shown in the Motoric
 
 ### Editor Mode Selector
 
-![](../assets/images/ms-editor-editor-mode-dropdown.png)
+![](../assets/images/ms-editor-toolbar-editor-mode-dropdown.png)
 
 This selector switches the current *editor mode* of the Motorica Studio Editor. Read more about editor modes [on this page](./ui-editor-modes.md).
 
@@ -82,14 +79,20 @@ You can spawn more than one Locomotion Actor in the scene:
 !!! note
     Currently, animations can be generated only for Locomotion Actors. If you wish to apply the animations to other characters, you will need to [retarget](retargeting.md) the animations.
 
+### Settings
+
+![](../assets/images/ms-editor-toolbar-settings-button.png)
+
+The "Settings" button opens the main Motorica Studio settings. This is a shorcut to the usual `Edit > Project Settings > Plugins > Motorica Studio`.
+
 ### Navigation Buttons
 
 ![](../assets/images/ms-editor-toolbar-additional-resource-buttons.png)
 
 The end of the toolbar hosts several buttons that help you navigate to several useful resources:
 
-1. **Motorica Studio Documentation** - A place where you can learn how to use and leverage Motorica Studio's tools Essentially, this is what you are reading currently.
-2. **Community Page** - A place where you can learn more about Motorica's community and how to join it. At the moment, we have a [Discord](https://discord.com/invite/KWRqNzcjYA) server with over 1.5k members!
+1. **Motorica Studio Documentation** - A place where you can learn how to use and leverage Motorica Studio's tools. You are currently reading this.
+2. **Community Page** - A place where you can engage with Motorica's community. Currently, we have a [Discord](https://discord.com/invite/KWRqNzcjYA) server with over 3k members!
 3. **Bug Report Page** - A place where you can report bugs, share feedback, and request new features.
 
 ## Tabs
@@ -105,12 +108,12 @@ The *Networking* panel is only used for logging in to Motorica. That's it!
 
 ### Style Browser
 
-TODO
+![](../assets/images/ms-editor-tab-style-browser.png)
 
 ### Style Mixer
 
-TODO
+![](../assets/images/ms-editor-tab-style-mixer.png)
 
 ### Viewport
 
-TODO
+![](../assets/images/ms-editor-tab-viewport.png)

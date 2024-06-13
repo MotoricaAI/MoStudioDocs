@@ -2,11 +2,14 @@
 
 Currently, animations can be generated only in Motorica Studio Editor. This section describes different workflows for generating animations.
 
+!!! note
+    The images on this page are taken in UE 5.3. There is a slightly different UI in 5.4 but it overall functions the same.
+
 ## Create Animation for Preset Path
 
 1. Enable [*Preset Mode*](ui-editor-modes.md#preset-mode)
 
-    ![](../assets/images/ms-editor-editor-mode-preset.png)
+    ![](../assets/images/ms-editor-toolbar-editor-mode-preset.png)
 
 2. Choose a preset type in the *Preset Controls* panel and configure its parameters.
 
@@ -34,7 +37,7 @@ Currently, animations can be generated only in Motorica Studio Editor. This sect
 
 1. Enable [*Keyframe Mode*](ui-editor-modes.md#keyframe-mode)
 
-    ![](../assets/images/ms-editor-editor-mode-keyframe.png)
+    ![](../assets/images/ms-editor-toolbar-editor-mode-keyframe.png)
 
 2. Add a *Locomotion Actor* to the scene.
 
@@ -150,7 +153,3 @@ To export the animation as FBX:
 2. Click *Export Asset > Animation Data* and export using the default settings.
 
     ![](../assets/images/ue-animation-editor-export-asset-animation-data.png)
-
-    !!! note
-        The image above is using UE 5.3. Other UE versions may show a different UI.
-   

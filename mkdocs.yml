@@ -10,6 +10,7 @@ extra_css:
 plugins:
   - search
   - awesome-pages
+  - mkdocs-video
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -21,3 +22,4 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
         permalink: "🔗&#xFE0E;"
+        toc_depth: 3

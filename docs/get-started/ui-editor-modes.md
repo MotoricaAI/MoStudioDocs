@@ -3,10 +3,10 @@ The Motorica Studio Editor organizes its various features into so-called **edito
 
 Locate this dropdown in the Motorica Studio Editor to switch between editor modes:
 
-![](../assets/images/ms-editor-editor-mode-dropdown.png)
+![](../assets/images/ms-editor-toolbar-editor-mode-dropdown.png)
 
 ## Keyframe Mode
-![](../assets/images/ms-editor-editor-mode-keyframe.png)
+![](../assets/images/ms-editor-toolbar-editor-mode-keyframe.png)
 
 This mode lets you keyframe custom paths for which you can generate character animations. This is especially useful if you have [loaded a custom level](ui-motorica-studio-editor.md#level-switchers) and want your character to move around objects in your scene.
 
@@ -29,12 +29,9 @@ Used for fine-grained control over the value and curve (interpolation) of your k
 
 ### **Viewport Gizmo**
 
-Used this to move your character around the scene.
+The gizmo is used to move and rotate the character in the scene.
 
 ![](../assets/images/ms-editor-viewport-gizmo.png)
-
-!!! note
-    Motorica Studio Editor uses a different gizmo style than the default UE one for various technical reasons. The gizmo is experimental and its look-and-feel is not final. If you experience any difficulties with the gizmo interaction, please let us know!
 
 !!! bug
     When rotating the gizmo beyond `-180` and `180`, the *Yaw* / *Z-axis* value will wrap-around by 180 degrees. This will cause your animation to make a very fast rotation which you msot likely do not want.
@@ -42,7 +39,7 @@ Used this to move your character around the scene.
     Correct the value manually via the *Details* panel, the *Timeline* track keyframe value, or the *Curve Editor* UI.
 
 ## Preset Mode
-![](../assets/images/ms-editor-editor-mode-preset.png)
+![](../assets/images/ms-editor-toolbar-editor-mode-preset.png)
 
 This mode lets you generate animations for parameterized preset paths, without the need for manual keyframing. This is in contrast to *Keyframe* mode, in which you create the paths yourself by moving the character in the viewport and keyframing its location and rotation in the *Timeline*.
 
