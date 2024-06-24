@@ -29,6 +29,9 @@ plugins:
   - search
   - awesome-pages
   - mkdocs-video
+  - redirects:
+      redirect_maps:
+        'manual/unreal-engine/index.md': 'index.md'
 markdown_extensions:
   - admonition
   - pymdownx.details
