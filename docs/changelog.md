@@ -1,5 +1,17 @@
 # Changelog (Motorica Studio)
 ## Motorica Studio v0.3.0
+`Released on 2024-xxx-xx`
+
+#### New
+- The login happens via an embedded browser where you can both register and enter your Motorica credentials.
+- There is an option to switch to the old backend.
+
+    !!! warning
+        The `Legacy` branch option in the plugin settings is *deprecated* and will be removed in the future. Please use the `Cloud` branch instead.
+
+- The user credentials are no longer stored locally.
+
+## Motorica Studio v0.3.0
 `Released on 2024-Jun-13`
 
 #### New
@@ -9,7 +21,7 @@
 - Added skeleton asset `SK_Motorica_Char_UE_v1` that replaces the old `MoStudio_Character_Skeleton` asset. *([more info](get-started/included-assets.md#characters))*
 
     !!! warning
-        `MoStudio_Character_Skeleton` is now deprecated. Read [this guide](how-to-guides/migrate-to-030.md) to retarget existing animations to the new skeleton.
+        `MoStudio_Character_Skeleton` is now *deprecated*. Read [this guide](how-to-guides/migrate-to-030.md) to retarget existing animations to the new skeleton.
 
 #### Improvement
 - Added default layout to the Motorica Studio editor UI. (No more floating tabs when the UI layout is reset.)
