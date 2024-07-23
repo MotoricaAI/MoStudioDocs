@@ -1,5 +1,5 @@
 # Changelog (Motorica Studio)
-## Motorica Studio v0.3.0
+## Motorica Studio v0.3.1
 `Released on 2024-xxx-xx`
 
 #### New
