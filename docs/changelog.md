@@ -12,7 +12,7 @@
 - The user credentials are no longer stored locally.
 
 #### Improvements
-- Login errors are always displayed under the `Login` button.
+- Login errors are now displayed under the `Login` button.
 
 ## Motorica Studio v0.3.0
 `Released on 2024-Jun-13`
