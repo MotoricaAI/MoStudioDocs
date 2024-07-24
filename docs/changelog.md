@@ -3,6 +3,11 @@
 `Released on 2024-xxx-xx`
 
 #### New
+- Added "Loop Animation" checkbox.
+
+    !!! tip
+        This works best with presets and constant speeds (i.e. no starting and stopping).
+
 - The login happens via an embedded browser where you can both register and enter your Motorica credentials.
 - There is an option to switch to the old backend.
 
