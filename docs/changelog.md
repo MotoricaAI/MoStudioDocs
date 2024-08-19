@@ -1,23 +1,25 @@
 # Changelog (Motorica Studio)
 ## Motorica Studio v0.3.1
-`Released on 2024-xxx-xx`
+`Released on 2024-Aug-20`
 
 #### New
 - Added "Loop Animation" checkbox.
 
     !!! tip
-        This works best with presets and constant speeds (i.e. no starting and stopping).
+        This works best with Motorica presets where the speed is constant and there is no acceleration.
 
-- The login happens via an embedded browser where you can both register and enter your Motorica credentials.
-- There is an option to switch to the old backend.
+- Redesigned the user login and registration flows to use an embedded browser.
+- Added an option to switch to the legacy, non-cloud backend.
 
     !!! warning
-        The `Legacy` branch option in the plugin settings is *deprecated* and will be removed in the future. Please use the `Cloud` branch instead.
-
-- The user credentials are no longer stored locally.
+        The `Legacy` connection branch will be removed in the future. Please use the `Cloud` connection branch instead.
 
 #### Improvement
 - Login errors are now displayed under the `Login` button.
+- User credentials are no longer stored locally.
+
+    !!! warning
+        This is not true when using the `Legacy` connection branch.
 
 ## Motorica Studio v0.3.0
 `Released on 2024-Jun-13`
