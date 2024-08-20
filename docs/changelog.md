@@ -8,18 +8,14 @@
     !!! tip
         This works best with Motorica presets where the speed is constant and there is no acceleration.
 
-- Redesigned the user login and registration flows to use an embedded browser.
-- Added an option to switch to the legacy, non-cloud backend.
-
-    !!! warning
-        The `Legacy` connection branch will be removed in the future. Please use the `Cloud` connection branch instead.
+- Added cloud login and registration support that uses an embedded browser.
 
 #### Improvement
 - Login errors are now displayed under the `Login` button.
 - User credentials are no longer stored locally.
 
-    !!! warning
-        This is not true when using the `Legacy` connection branch.
+#### Removed
+- Removed legacy server support and properties (APILocation, Email, Password)
 
 ## Motorica Studio v0.3.0
 `Released on 2024-Jun-13`
