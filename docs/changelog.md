@@ -15,8 +15,8 @@
 - User credentials are no longer stored locally.
 
 #### Removed
-- Removed support for legacy servers
-- Removed the following properties: APILocation, Email, Password
+- Removed support for connecting to legacy servers
+- Removed the following properties: `APILocation`, `Email`, `Password`
 
 ## Motorica Studio v0.3.0
 `Released on 2024-Jun-13`
