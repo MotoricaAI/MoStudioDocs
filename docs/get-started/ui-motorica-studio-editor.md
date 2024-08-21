@@ -16,7 +16,7 @@ You can also open the window via `Window > Motorica Editor` from the main window
 
 ## Login to Motorica
 
-Motorica Studio requires an internet connection. Make sure that you have [configured Motorica Studio](installing.md#configure-motorica-studio) correctly and login via the *Networking* panel:
+Motorica Studio requires an internet connection.  You can login via the *Networking* panel:
 
 ![](../assets/gifs/workflow-ms-editor-login.gif)
 

@@ -1,8 +1,5 @@
 # Introduction
 
-!!! note
-    We've updated our page, you can still find our web-based [Style Viewer](http://mogen.motorica.ai).
-
 ## About
 
 Motorica Studio is an Unreal Engine 5+ plugin that integrates Motorica's animation generation and editing tools inside Unreal Engine. The plugin is precompiled and added to your UE project or folder.
@@ -12,7 +9,11 @@ Motorica Studio is an Unreal Engine 5+ plugin that integrates Motorica's animati
 
 ## Discord Community and Help
 
-We have a growing [Discord](https://discord.com/invite/KWRqNzcjYA) community of enthusiastic members (over 3k!) with whom you can chat. The Motorica team is also present, so you can contact them directly if you want to ask **questions**, share **feedback** or report any **issues**.
+We have a growing [Discord](https://discord.com/invite/KWRqNzcjYA) community of enthusiastic members (over 3k!) with whom you can chat. The Motorica team is also present, so you can contact them directly if you want to:
+
+- ask **questions**
+- share **feedback**
+- report **issues**
 
 This button in Motorica Studio will take you there:
 
@@ -25,7 +26,6 @@ Get started with Motorica Studio by first setting up the plugin:
 - [Register](installing.md#register-at-motorica) at Motorica
 - [Download](installing.md#download-motorica-studio) Motorica Studio
 - [Install](installing.md#install-guides) Motorica Studio
-- [Configure](installing.md#configure-motorica-studio) Motorica Studio
 
 Other Guides:
 

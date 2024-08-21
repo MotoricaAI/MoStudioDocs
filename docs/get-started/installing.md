@@ -4,23 +4,24 @@ Motorica Studio currently does not follow a strict release cycle. Stay updated b
 
 ## System Requirements
 
-Unreal Engine needs to be installed to use Motorica Studio. A list of supported UE versions and target platforms is available in the [Downloads](../downloads.md) page.
+Find a list of supported Unreal Engine versions and platform in the [Downloads](../downloads.md) page.
 
-## Register at Motorica
+## Register
 
-Motorica Studio requires an account. To register, go to the [Motorica website](https://www.motorica.ai/).
+You need a Motorica account to use the plugin. Register on the [Motorica website](https://www.motorica.ai/).
 
-For your security:
+!!! tip
+    For your security:
 
-- Use a combination of **numbers**, **symbols**, and **upper and lower case letters** in your password.
-- Use a password that is **16 characters long** or more.
-- Use a **unique** password (i.e. you have not used the password anywhere else).
+    - Use a combination of **numbers**, **symbols**, and **upper and lower case letters** in your password.
+    - Use a password that is **16 characters long** or more.
+    - Use a **unique** password (i.e. you have not used the password anywhere else).
 
-## Download Motorica Studio
+## Download
 
 Go to the [Downloads](../downloads.md) page.
 
-## Install Motorica Studio
+## Install
 ### Install for All Projects
 
 1. Extract the downloaded `.zip` to Unreal Engine's installation folder.
@@ -36,10 +37,15 @@ Go to the [Downloads](../downloads.md) page.
 
 3. Enable the plugin via `Edit > Plugins > Installed | Animation > Motorica Studio`
 4. Restart the UE editor
-5. [Configure Motorica Studio](#configure-motorica-studio)
+5. This button will appear after successful installation
+
+    ![](../assets/images/ue-level-editor-toolbar-motorica-button.png)
 
 !!! note
     Each UE project has its own list of enabled plugins and plugin settings. Therefore, you must enable and configure Motorica Studio *separately* for each project.
+
+!!! warning
+    For plugin versions **0.3.0 and below**, you will need to [configure the plugin](#configure-030-and-below).
 
 ### Install for a Single Project
 
@@ -55,52 +61,54 @@ Go to the [Downloads](../downloads.md) page.
 
 3. Enable the plugin via `Edit > Plugins > Installed | Animation > Motorica Studio`
 4. Restart the UE editor
-5. [Configure Motorica Studio](#configure-motorica-studio)
-
-## Configure Motorica Studio
-
-If Motorica Studio was installed correctly, you will see this button in the level editor toolbar:
-
-![](../assets/images/ue-level-editor-toolbar-motorica-button.png)
-
-### Open Plugin Settings
-
-Open the Motorica Studio editor and press the "Settings" button in the toolbar:
-
-![](../assets/images/ms-editor-toolbar-settings-button.png)
-
-Alternatively, navigate to `Edit > Project Settings > Plugins > Motorica Studio Networking`.
-
-![](../assets/images/menu-edit-project-settings.png)
-![](../assets/images/project-settings-plugins-motorica-studio.png)
-
-### Configuration Values
-
-- **API Location** - Write `https://mogen.motorica.ai/api/v1/`.
-- **Email** - Write your Motorica account email.
-- **Password** - Write your Motorica account password.
-
-    !!! warning
-        **The password is stored in plain-text in the plugin config file** at `YourProjectRoot > Config > DefaultMotoricaStudioConfig.ini`.
-        
-        Make sure to use a **unique password**!
-
-        Make sure to **delete the config file when copying your project**!
-
-![](../assets/images/motorica-studio-settings-example.png)
-
-### Verify the Configuration
-
-Verify that you entered your information correctly by logging in from the Motorica Studio Editor:
-
-1. Open the *Motorica Studio editor*.
+5. This button will appear after successful installation
 
     ![](../assets/images/ue-level-editor-toolbar-motorica-button.png)
 
-2. Login from the *Networking* panel. 
+!!! warning
+    For plugin versions **0.3.0 and below**, you will need to [configure the plugin](#configure-030-and-below).
 
-    ![](../assets/gifs/workflow-ms-editor-login.gif)
+??? info "Configuration for versions 0.3.0 and below."
+    ## Configure (0.3.0 and below)
 
-    If you see **"Login successful!"**, then your configuration was correct.
+    **Open plugin settings**
 
-    If you see **"Login failed!"**, your configuration might be wrong. Please double-check the information in the plugin settings and try again. If the issue persists, reach out on [Discord](https://discord.com/invite/KWRqNzcjYA).
+    Open the Motorica Studio editor and press the "Settings" button in the toolbar:
+
+    ![](../assets/images/ms-editor-toolbar-settings-button.png)
+
+    Alternatively, navigate to `Edit > Project Settings > Plugins > Motorica Studio Networking`.
+
+    ![](../assets/images/menu-edit-project-settings.png)
+    ![](../assets/images/project-settings-plugins-motorica-studio.png)
+
+    **Configuration values**
+
+    - **API Location** - Write `https://mogen.motorica.ai/api/v1/`.
+    - **Email** - Write your Motorica account email.
+    - **Password** - Write your Motorica account password.
+
+        !!! warning
+            **The password is stored in plain-text in the plugin config file** at `YourProjectRoot > Config > DefaultMotoricaStudioConfig.ini`.
+            
+            Make sure to use a **unique password**!
+
+            Make sure to **delete the config file when copying your project**!
+
+    ![](../assets/images/motorica-studio-settings-example.png)
+
+    **Verify the Configuration**
+
+    Verify that you entered your information correctly by logging in from the Motorica Studio Editor:
+
+    1. Open the *Motorica Studio editor*.
+
+        ![](../assets/images/ue-level-editor-toolbar-motorica-button.png)
+
+    2. Login from the *Networking* panel. 
+
+        ![](../assets/gifs/workflow-ms-editor-login.gif)
+
+        If you see **"Login successful!"**, then your configuration was correct.
+
+        If you see **"Login failed!"**, your configuration might be wrong. Please double-check the information in the plugin settings and try again. If the issue persists, reach out on [Discord](https://discord.com/invite/KWRqNzcjYA).

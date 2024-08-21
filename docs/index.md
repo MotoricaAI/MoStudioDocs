@@ -1,4 +1,6 @@
-# Overview
+# Home
+
+<!-- Announcement block
 
 <div markdown>
 <hr style="border-width: 0.5em; border-color: #333333;">
@@ -12,11 +14,13 @@
 <hr style="border-width: 0.5em; border-color: #333333;">
 </div>
 
-Welcome to the Motorica's documentation website!
+-->
 
-[:simple-unrealengine: Download UE Plugin](downloads.md){ .md-button .md-button--primary } [:material-monitor-shimmer: Online Style Viewer](https://mogen.motorica.ai/){ .md-button }
+Welcome to the Motorica's documentation!
 
-To get started with *Motorica Studio* for Unreal Engine 5, visit the [Installation](get-started/index.md) page .
+[:simple-unrealengine: Download UE Plugin](downloads.md#motorica-studio-ue-plugin){ .md-button .md-button--primary } [:material-monitor-shimmer: Online Style Viewer](https://mogen.motorica.ai/){ .md-button }
+
+[Click here](get-started/index.md) to get started with Motorica Studio for Unreal Engine 5.
 
 ### Other Software Guides
 

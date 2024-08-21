@@ -11,15 +11,23 @@ Currently, animations can be generated only in Motorica Studio Editor. This sect
 
     ![](../assets/images/ms-editor-toolbar-editor-mode-preset.png)
 
-2. Choose a preset type in the *Preset Controls* panel and configure its parameters.
+1. Choose a preset type in the *Preset Controls* panel and configure its parameters.
 
     ![](../assets/images/ms-editor-preset-controls-panel-configured.png)
 
-3. Select one or more styles in the *Style Browser*.
+1. Select one or more styles in the *Style Browser*.
 
     ![](../assets/images/ms-editor-style-browser-selected-style-with-style-mixer.png)
 
-4. Press *Generate Animation*.
+1. Optionally toggle *Looping*.
+
+    ![](../assets/images/ms-editor-loop-animation-toggle.png)
+
+    !!! tip
+
+        Looping works best when animations have constant speed. Avoid accelerating / decelerating motion at the edges of the animation.
+
+1. Press *Generate Animation*.
 
     ![](../assets/images/ms-editor-generate-animation-button.png)
 
@@ -31,7 +39,7 @@ Currently, animations can be generated only in Motorica Studio Editor. This sect
 
     ![](../assets/images/ms-editor-timeline-animation-track-with-animation.png)
 
-5. [Preview your animation.](#preview-generated-animation)
+1. [Preview your animation.](#preview-generated-animation)
 
 ## Create Animation for Custom Path
 
@@ -39,19 +47,19 @@ Currently, animations can be generated only in Motorica Studio Editor. This sect
 
     ![](../assets/images/ms-editor-toolbar-editor-mode-keyframe.png)
 
-2. Add a *Locomotion Actor* to the scene.
+1. Add a *Locomotion Actor* to the scene.
 
     ![](../assets/images/ms-editor-toolbar-add-actor-button.png)
 
-3. Select the Actor by left-clicking it in the viewport.
+1. Select the Actor by left-clicking it in the viewport.
 
     ![](../assets/images/ms-editor-viewport-with-character-tpose.png)
 
-4. Set the current frame in the *Timeline* to `0`.
+1. Set the current frame in the *Timeline* to `0`.
 
     ![](../assets/images/ms-editor-timeline-scrubber-at-zero.png)
 
-5. Move and rotate the Actor using the viewport gizmo.
+1. Move and rotate the Actor using the viewport gizmo.
     
     ![](../assets/images/ms-editor-viewport-gizmo.png)
 
@@ -62,7 +70,7 @@ Currently, animations can be generated only in Motorica Studio Editor. This sect
         - the channel value in *Sequencer Curves*
         - the channel value in the *Details* panel under "Transform", as long as the *Actor* is selected
         
-6. Set the keyframe for *Location* and *Rotation* channels.
+1. Set the keyframe for *Location* and *Rotation* channels.
 
     ![](../assets/images/ms-editor-timeline-add-keyframe.png)
 
@@ -73,19 +81,27 @@ Currently, animations can be generated only in Motorica Studio Editor. This sect
 
         ![](../assets/images/ms-editor-timeline-autokey-button.png)
 
-7. Move the scrubber in the *Timeline* to another frame.
+1. Move the scrubber in the *Timeline* to another frame.
 
     ![](../assets/images/ms-editor-timeline-scrubber-at-two-with-key.png)
 
-8. Repeat steps 4 to 6 until you are ready with your path.
+1. Repeat steps 4 to 6 until you are ready with your path.
 
     ![](../assets/images/ms-editor-timeline-filled-with-curve-editor.png)
 
-9. Select one or more styles in the *Style Browser*.
+1. Select one or more styles in the *Style Browser*.
 
     ![](../assets/images/ms-editor-style-browser-selected-style-with-style-mixer.png)
 
-10. Press *Generate Animation*.
+1. Optionally toggle *Looping*.
+
+    ![](../assets/images/ms-editor-loop-animation-toggle.png)
+
+    !!! tip
+
+        Looping works best when animations have constant speed. Avoid accelerating / decelerating motion at the edges of the animation.
+
+1. Press *Generate Animation*.
 
     ![](../assets/images/ms-editor-generate-animation-button.png)
 
@@ -97,7 +113,7 @@ Currently, animations can be generated only in Motorica Studio Editor. This sect
 
     ![](../assets/images/ms-editor-timeline-animation-track-with-animation.png)
 
-11. [Preview your animation.](#preview-generated-animation)
+1. [Preview your animation.](#preview-generated-animation)
 
 ## Preview Generated Animation
 
