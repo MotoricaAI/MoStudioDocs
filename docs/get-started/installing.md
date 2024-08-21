@@ -41,11 +41,11 @@ Go to the [Downloads](../downloads.md) page.
 
     ![](../assets/images/ue-level-editor-toolbar-motorica-button.png)
 
+6. !!! warning
+    For plugin versions **0.3.0 and below**, you will need to [configure the plugin](#configure-030-and-below).
+
 !!! note
     Each UE project has its own list of enabled plugins and plugin settings. Therefore, you must enable and configure Motorica Studio *separately* for each project.
-
-!!! warning
-    For plugin versions **0.3.0 and below**, you will need to [configure the plugin](#configure-030-and-below).
 
 ### Install for a Single Project
 
@@ -65,11 +65,12 @@ Go to the [Downloads](../downloads.md) page.
 
     ![](../assets/images/ue-level-editor-toolbar-motorica-button.png)
 
-!!! warning
+6. !!! warning
     For plugin versions **0.3.0 and below**, you will need to [configure the plugin](#configure-030-and-below).
 
-??? info "Configuration for versions 0.3.0 and below."
-    ## Configure (0.3.0 and below)
+## Configure (0.3.0 and below)
+
+??? info "Instructions (click to show)"
 
     **Open plugin settings**
 
