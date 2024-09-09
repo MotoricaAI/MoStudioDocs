@@ -49,4 +49,5 @@ Not supported currently.
 
 ### Blender
 
-- **[Motorica.blend](https://drive.google.com/file/d/1-FUC3YTwEUB0i5nUnwH_NoySo5LHl83t/view)
+- **Blender Project File**: For Blender users, you can use this to setup a root path to import in the webapp.
+    - [Motorica.blend](https://drive.google.com/file/d/1-FUC3YTwEUB0i5nUnwH_NoySo5LHl83t/view)
