@@ -46,3 +46,7 @@ Follow the [installation guide](get-started/installing.md) to install Motorica S
 ### Linux / MacOS
 
 Not supported currently.
+
+### Blender
+
+- **[Motorica.blend](https://drive.google.com/file/d/1-FUC3YTwEUB0i5nUnwH_NoySo5LHl83t/view)
