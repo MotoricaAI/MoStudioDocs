@@ -1,4 +1,15 @@
 # Changelog (Motorica Studio)
+
+## Motorica Studio v0.3.2
+`Released on 2024-XXX-XX`
+
+#### New
+- Added a "News" panel to display live updates and notify you when a newer plugin version is released.
+
+#### Improvement
+- Rerouted registration in embedded login browser to the external browser.
+- Added check to verify that registration has been fully completed, and opens external browser if not.
+
 ## Motorica Studio v0.3.1
 `Released on 2024-Aug-20`
 
