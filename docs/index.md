@@ -18,13 +18,13 @@
 
 Welcome to the Motorica's documentation!
 
-[:simple-unrealengine: Download UE Plugin](downloads.md#motorica-studio-ue-plugin){ .md-button .md-button--primary } [:material-monitor-shimmer: Online Style Viewer](https://mogen.motorica.ai/){ .md-button }
+ [:material-monitor-shimmer: Motorica Web App](https://mogen.motorica.ai/){ .md-button .md-button--primary } [:simple-unrealengine: Download UE Plugin](downloads.md#motorica-studio-ue-plugin){ .md-button }
 
 [Click here](get-started/index.md) to get started with Motorica Studio for Unreal Engine 5.
 
 ### Other Software Guides
 
-For other software we recommend using the web based [Style Viewer :material-monitor-shimmer:](https://mogen.motorica.ai/)
+For other software we recommend using the web based [Style Viewer :material-monitor-shimmer:](https://app.motorica.ai/)
 
 <div class="grid cards" markdown>
 

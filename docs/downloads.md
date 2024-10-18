@@ -2,7 +2,7 @@
 
 ## Skeleton
 
-- **General (Autodesk)**: Use this skeleton inside Maya, MotionBuilder, Blender, etc. The Online Style Viewer generates animations for this skeleton.
+- **General (Autodesk)**: Use this skeleton inside Maya, MotionBuilder, Blender, etc. The Web App generates animations for this skeleton.
     - [Motorica_Char_ADSK_v1.fbx](https://drive.google.com/file/d/13bPK0RDA8jJuUIKJA9mrxfUXtLFCDG5d/view)
 - **Unreal Engine**: Use this skeleton inside Unreal Engine. Motorica Studio provides this skeleton out of the box and generates animations for it.
     - [SK_Motorica_Char_UE_v1.fbx](https://drive.google.com/file/d/1zAMVNztADOqJQPm2_GY4YHhOrmlFXJ3S/view)
