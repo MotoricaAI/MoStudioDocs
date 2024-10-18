@@ -1,7 +1,8 @@
 nav:
     - Home: index.md
-    - Get Started: get-started
-    - How-to-guides: how-to-guides
+    - Motorica Studio: get-started
+    - MM-PRODUCT: mm-product
+    - QuickStart Guides: how-to-guides
     - Downloads: downloads.md
     - Changelog: changelog.md
     - ...
