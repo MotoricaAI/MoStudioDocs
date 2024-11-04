@@ -41,5 +41,5 @@ Visit [Motorica.ai](https://www.motorica.ai/) to learn more and join our [Discor
 
 ### Legal
 
-- [Privacy Policy](legal/privacy-policy.md)
-- [Terms of Service](legal/tos.md)
+- [Privacy Policy](https://www.motorica.ai/privacy-policy)
+- [Terms of Service](https://www.motorica.ai/terms-of-service)
