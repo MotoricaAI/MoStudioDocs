@@ -1,3 +1,4 @@
 nav:
     - Introduction: index.md
     - User Interface: ui.md
+    - Custom Paths: custom_paths.md

@@ -1,7 +1,7 @@
 # [MM-Product]
 
 !!! warning
-    This is an **experimental feature**, so there may be some minor bugs & issues.
+    This is a **Beta feature**, so there may be some minor bugs & issues.
 
 <!--## About-->
 
