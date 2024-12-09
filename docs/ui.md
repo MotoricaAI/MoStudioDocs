@@ -5,29 +5,29 @@
 
 ## Overview
 
-The [MM-PRODUCT] user interface is located on the right side of the screen, once [MM-PRODUCT] has been selected via the top-right menu. It contains all the tools and controls needed to create your motion datasets:
+The user interface is located on the right side of the screen, once Motion Matching has been selected via the top-right menu. It contains all the tools and controls needed to create your motion datasets:
 <br>
 
 ![](../assets/images/mm-toolbox.png)
 
-The [MM PRODUCT] workflow is divided into three key phases:
+The Motion Matching workflow is divided into three key phases:
 
 1. [Configuration Setup](#configuration-setup)
     - Specify parameters based on your game's animation system to generate root motion **paths**. These paths will later be synthesized by our AI motion models to create your dataset.
 2. [Path Viewer](#path-viewer)
     - Review the generated paths and confirm they meet your requirements before proceeding.
 3. [Animation Generation](#animation-generation)
-    - Choose the style(s) and seed for the animation generation process.
+    - Choose the style(s), seed and options for the animation generation process.
 
-!!! tip
-    Check out our [Motion Matching Tutorial](../how-to-guides/mm-tutorial.md) for a guided walkthrough on using [MM-PRODUCT] for motion matching!
+<!-- !!! tip
+    Check out our [Motion Matching Tutorial](../how-to-guides/mm-tutorial.md) for a guided walkthrough on using [MM-PRODUCT] for motion matching! -->
 
 ## Configuration Setup
 
-There are two ways to create your motion dataset in [MM PRODUCT]:
+There are two ways to create your motion dataset:
 
-- [Simplified mode](#simplified-setup) <br>*The fastest way to create a dataset, adaptable for various animation systems.*
-- [Custom mode](#custom-setup) <br>*Provides more granular control for users who need finer adjustments.*
+- [Simplified mode](#simplified-setup) <br>*The fastest way to create a full dataset, adaptable for various animation systems.*
+- [Custom mode](#custom-setup) <br>*Provides more granular control for users who prefer a more modular method.*
 
 You can switch between the two modes using the **Select Mode** option:
 <br>
@@ -117,7 +117,22 @@ The available path sets are as follows:
 | Curves&nbsp;(Shallow) | The same as *Curves*, but with less sharp turns.                                                           |
 | Extras               | Additional paths for specific scenarios, such as stop-turns, pirouettes, and strafe turns.   |
 
-#TODO: Import Custom Path Sets
+Any imported path sets will also be visible in this list
+
+#### Import Custom Path Set
+
+![](../assets/images/mm-import-custom-set.png)
+
+This feature allows you to define your own path sets to use with the Motion Matching toolset. Once the **Import Custom Path Set** button is clicked, you will be greeted with the following menu:
+
+![](../assets/images/mm-import-custom-set-modal.png)
+
+1. **File Upload Button**
+<br> Allows you to select all the custom paths you would like to include in the custom path set. Only JSON file uploads are allowed
+
+2. **Path Set Name Input**
+<br> The name entered here will be the name associated with the imported path set. Entering the name of a set that has been already uploaded will **overwite** the existing set with the newly imported paths!
+
 
 #### Parameter Reference
 
@@ -125,15 +140,15 @@ The Custom Setup interface features a **Path Set** dropdown, along with adjustab
 
 ![](../assets/images/mm-custom-settings.png)
 
-When using the PDC tool, you have these controls available to you:
+You have these controls available to you:
 
 ##### Movement Settings
 | Parameter            | Description                                                           |
 |----------------------|-----------------------------------------------------------------------|
 | Max Speed            | The speed that the character will attempt to accelerate to when generating paths. If the **Acceleration** path set is chosen, then this will be one of the target speeds the character will accelerate between.           |
 | Min Speed            | When the **Acceleration** path set is chosen, this is one of two speeds that the character will accelerate between.                                                           |
-| Acceleration   | The acceleration the character will use when increasing their speed|
-| Deceleration   | The acceleration the character will use when decreasing their speed|
+| Acceleration   | The acceleration the character will use when **increasing** their speed|
+| Deceleration   | The acceleration the character will use when **decreasing** their speed|
 
 ##### Turn Behaviour
 | Parameter            | Description                                                           |

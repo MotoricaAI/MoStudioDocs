@@ -1,8 +1,4 @@
 nav:
-    - Home: index.md
-    - Motorica Studio: get-started
-    - MM-PRODUCT: mm-product
-    - QuickStart Guides: how-to-guides
-    - Downloads: downloads.md
-    - Changelog: changelog.md
-    - ...
+    - Introduction: index.md
+    - User Interface: ui.md
+    - Custom Paths: custom_paths.md
