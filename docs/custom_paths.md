@@ -11,20 +11,41 @@ A **Path** is comprised of **Segments**.
 
 These segments are stitched together, and run through a simulation process to create a path.
 
-A path is defined in a json object (read from a file) with two properties:
+A path is defined in a json object with two properties:
 - `info` - An object containing global information that is consistent throughout the entire path
-- `segments` - An **array** of objects, with each array element defining a segment
+- `segments` - An **array** of objects, with each array element defining a segment.
 
-!!! info
-    All angles are measured in degrees, **anticlockwise** from the forwards direction
+## Creating Paths
 
-The keys allowed in the `info` object are as follows:
+Each path is defined in an individual json file. The name of the dance card will be the name of the json file. The simplest path is defined as so:
+
+```
+{
+    "info": {},
+    "segments": [
+        {
+            "duration": 90
+        }
+    ]
+}   
+```
+As you can see, the only property that **must** be defined is `duration`. Each path must have **at least one** segment.
+
+!!! tip
+    To view examples of more complex paths, download our samples [here](https://drive.google.com/file/d/1Ds5ySjlvcYy-himAtRdaTHwys1MMq6rf/view?usp=sharing)!
+
+## Property Reference
+
+The properties allowed in the `info` object are as follows:
 
 | Property           | Description                                                           |
 |--------------------|-----------------------------------------------------------------------|
 | `start_from_idle` Default: `false`       | Defines whether the path will start simulating from idle, with an initial speed of 0               |
 | `root_offset`  Default: `0`       | An additional rotation added to the root bone throughout the animation|
 | `init_direction` Default: `0`       | The initial direction that the first segment will move in|
+
+!!! info
+    All angles are measured in degrees, **anticlockwise** from the forwards direction
 
 Segment objects can contain the following properties:
 
@@ -40,22 +61,3 @@ Segment objects can contain the following properties:
 | `accel_multiplier` Default: `1.0`       | Value that this segment will multiply the path builder's acceleration by|
 | `decel_multiplier` Default: `1.0`       | Value that this segment will multiply the path builder's deceleration by|
 | `post_turn` Default: `0.5`       | Dictates when the character will start their turn for this segment. `0.5` means the turn will start immediately as the segment begins. `0.0` means the turn will **finish** as the segment begins (a 'pre-turn'). `1.0` means the turn will start with a delay after the segment begins (a 'post-turn')|
-
-!!! tip
-    To view examples of more complex paths, download our samples [here](https://drive.google.com/file/d/1Ds5ySjlvcYy-himAtRdaTHwys1MMq6rf/view?usp=sharing)!
-
-## Creating Paths
-
-Each path is defined in an individual json file. The name of the path in the dance card set will be the name of the json file. The simplest path is defined as so:
-
-```
-{
-    "info": {},
-    "segments": [
-        {
-            "duration": 90
-        }
-    ]
-}   
-```
-As you can see, the only property that **must** be defined is `duration`. Each path must have **at least one** segment.
