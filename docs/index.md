@@ -14,9 +14,9 @@ Examples:
 
 - Generating a 2 second animation using your style = 2 credits
 - Altering some parameter of the above 2 second generation and generating again = 2 credits
-- Generating the same 2 second animation using the “random seed button” = ???
+- Generating the same 2 second animation using the “random seed button” = 2 credits
 - Changing parameters (i.e. acceleration speed) and then generating = 2 credits
-- Extending original animation to 3 seconds (all else the same) = 3 credits    
+- Extending original animation to 3 seconds (all else the same) = 3 credits
 
 !!! note
     PDC generations will consume **1 credit per CHS** for the entire set. Therefore if the entire set is 100 seconds in total, then it will cost 100 credits to generate.
@@ -31,7 +31,7 @@ To access and see how many credits have been consumed historically:
 2. Click on your account email in the upper right
 3. Click on Settings
 
-image of credit
+![](../assets/images/cred_mgmt/cred_view_owa.png)
 
 #### Explanation
 This view currently shows credit available for your entire Organization.
@@ -46,6 +46,8 @@ The credit expense feed shows the additional details about each generation, such
 * Frames
 * Credits consumed
 * UserID
+
+![](../assets/images/cred_mgmt/transactions_owa.png)
 
 !!! info
     We intend to show emails instead UserID's soon
@@ -70,7 +72,7 @@ For all accounts access it by:
 2. Clicking on your email nameplate in the upper right corner
 3. Clicking on "Credit management"
 
-![](../assets/images/cred_mgmt/enter_cred_mgmt.png)
+![](../assets/images/cred_mgmt/access_creds_nwa.png)
 
 **Usable credits**: How many credits are left this month.
 **Monthly credits**: How many credits your plan refreshes per month.
