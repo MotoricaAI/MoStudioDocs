@@ -1,4 +1,2 @@
 nav:
-    - Introduction: index.md
-    - User Interface: ui.md
-    - Custom Paths: custom_paths.md
+    - Credit Management: index.md
