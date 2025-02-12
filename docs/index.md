@@ -1,6 +1,3 @@
-# Credit Management System Documentation
-
-
 # Generation Credit System Guide
 
 ## Introduction
