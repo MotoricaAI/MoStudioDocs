@@ -1,4 +1,17 @@
 # Changelog (Motorica Studio)
+
+## Motorica Studio v0.3.2
+`Released on 2025-Feb-13`
+
+#### New
+- Added support for Unreal Engine 5.5.
+
+    !!! warning
+        Unreal Engine 5.5 will be the last maintained version by the plugin. For continued use and support, please switch over to the Motorica web app which you can find on our [website](https://www.motorica.ai/).
+
+#### Bug & Crash Fix
+- Fixed crash when loading Level containing a Level Instance Actor
+
 ## Motorica Studio v0.3.1
 `Released on 2024-Aug-20`
 
