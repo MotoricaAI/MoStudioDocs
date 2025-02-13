@@ -3,7 +3,7 @@
 ## Introduction
 Motorica generations utilize a credit system. Animation generation costs credits and is simply calculated on a per second of generated animation basis, or CHS for short.
 
-This guide walk through all details around credits as well as the user interface today.
+This guide details the credit system allowing you to view usage, available credits and (if applicable - see "[Account Types](#account-types)") alter the credit plan.
 
 ## Generation Costs
 The current plan equates **1 CHS (Generated Character Second) to 1 credit**.
