@@ -89,7 +89,7 @@ Credit plan adjustments happen at 1000 credit intervals.
 **Upgrading** the credit plan will immediately:
 
 1. Increase the existing available credits for the remainder of the billing period.
-2. Add the updated credit plan cost to the next billing cycle.
+2. Add the updated credit plan cost to the next billing cycles.
 
 ![](../assets/images/cred_mgmt/upgrade_creds.png)
 
@@ -108,4 +108,6 @@ We have many ideas to improve the overall credit management system. In no partic
 * Allowing more than one qualified user to adjust credits
 * Improving the credit usage view to be more intuitive
 
-We appreciate your use of our tools and for any feedback, please reach out on slack or use the "Feedback" button at the bottom right!
+We appreciate your use of our tools and for any feedback, please reach out on slack or use the "Feedback" button at the bottom right of the beta dashboard!
+
+![](../assets/images/cred_mgmt/feedback.png)
