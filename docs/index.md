@@ -24,7 +24,7 @@ Welcome to the Motorica's documentation!
 
 ### Other Software Guides
 
-For other software we recommend using the web based [Style Viewer :material-monitor-shimmer:](https://mogen.motorica.ai/)
+For other software we recommends using the web based [Style Viewer :material-monitor-shimmer:](https://mogen.motorica.ai/)
 
 <div class="grid cards" markdown>
 
