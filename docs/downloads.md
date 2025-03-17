@@ -2,6 +2,11 @@
 
 ## Skeleton
 
+### For the new Web App Experience Open Beta
+- **Motorica Rig**: This skeleton (obtainable via the Beta experience) is provided by Motorica Studio for your use. Ideal for visualization and/or retargeting into other DCCs.
+    - [Get Motorica_Skeleton_v2](https://motorica-beta-staging.web.app/skeletons/MotoricaCharacter_v5_Final_Characterized.fbx) (Right Click -> Save link as -> .FBX)
+
+### For the legacy web app:
 - **General (Autodesk)**: Use this skeleton inside Maya, MotionBuilder, Blender, etc. The Online Style Viewer generates animations for this skeleton.
     - [Motorica_Char_ADSK_v1.fbx](https://drive.google.com/file/d/13bPK0RDA8jJuUIKJA9mrxfUXtLFCDG5d/view)
 - **Unreal Engine**: Use this skeleton inside Unreal Engine. Motorica Studio provides this skeleton out of the box and generates animations for it.

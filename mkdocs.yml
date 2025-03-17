@@ -6,6 +6,8 @@ theme:
     primary: custom
   features:
     - navigation.footer
+#  custom_dir: "docs/partials" # Add this line
+
 extra:
   analytics:
     provider: google
