@@ -6,5 +6,20 @@
 
 .md-banner {
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(16, 12, 89, 1) 30%, rgba(16, 12, 89, 1) 60%, rgba(2, 0, 36, 1) 100%);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(11, 7, 83, 1) 30%, rgba(11, 7, 83, 1) 60%, rgba(2, 0, 36, 1) 100%);
+}
+
+.announcement {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: larger;
+
+  a {
+    color: orange;
+  }
+
+  a:hover {
+    color: yellow;
+  }
 }
