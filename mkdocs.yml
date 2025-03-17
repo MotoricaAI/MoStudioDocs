@@ -1,6 +1,7 @@
 site_name: Motorica Studio Documentation
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: custom
   features:
@@ -31,7 +32,7 @@ plugins:
   - mkdocs-video
   - redirects:
       redirect_maps:
-        'manual/unreal-engine/index.md': 'index.md'
+        "manual/unreal-engine/index.md": "index.md"
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -42,5 +43,5 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
-        permalink: "🔗&#xFE0E;"
-        toc_depth: 3
+      permalink: "🔗&#xFE0E;"
+      toc_depth: 3

@@ -1,5 +1,10 @@
 :root {
-  --md-primary-fg-color:        #4f1fd4;
+  --md-primary-fg-color: #4f1fd4;
   --md-primary-fg-color--light: #3417c4;
-  --md-primary-fg-color--dark:  #0b0c42;
+  --md-primary-fg-color--dark: #0b0c42;
+}
+
+.md-banner {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(16, 12, 89, 1) 30%, rgba(16, 12, 89, 1) 60%, rgba(2, 0, 36, 1) 100%);
 }
