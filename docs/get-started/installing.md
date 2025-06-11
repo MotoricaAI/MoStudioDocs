@@ -8,14 +8,14 @@ Find a list of supported Unreal Engine versions and platform in the [Downloads](
 
 ## Register
 
-To use the plugin, you need to register a legacy Motorica account using our old registration system at this URL: [https://auth.motorica.ai/ui/registration](https://auth.motorica.ai/ui/registration)
-
-!!! warning
-    A legacy account only grants access to the Motorica UE plugin and our legacy systems. To access our latest features in our beta web app, you will need to register a standard account on our beta web platform: [https://app.beta.motorica.ai/auth/sign-in](https://app.beta.motorica.ai/auth/sign-in)
-    
-    A legacy account is different from the standard account. These two accounts are not compatible with each other, cannot be transferred, and must be registered individually.
+To use the plugin, you need to register a **legacy** Motorica account using our old registration system at this URL: [https://auth.motorica.ai/ui/registration](https://auth.motorica.ai/ui/registration)
 
 ![](../assets/images/motorica-ory-registration.png)
+
+!!! warning
+    A **legacy account** only grants access to the Motorica UE plugin and our legacy systems. To access our latest features in our beta web app, you will need to register a **standard** account on our beta web platform: [https://app.beta.motorica.ai/auth/sign-in](https://app.beta.motorica.ai/auth/sign-in)
+    
+    A legacy account is **different** from the standard account. These two accounts are not compatible with each other, cannot be transferred, and must be registered individually.
 
 !!! tip
     For your security:
