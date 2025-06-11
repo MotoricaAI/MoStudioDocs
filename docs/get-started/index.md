@@ -1,5 +1,8 @@
 # Introduction
 
+!!! warning
+    The UE Plugin “Motorica Studio” is not actively supported at this time. Using this legacy plugin will require additional steps (see [Register](installing.md#register-at-motorica) below).
+
 ## About
 
 Motorica Studio is an Unreal Engine 5+ plugin that integrates Motorica's animation generation and editing tools inside Unreal Engine. The plugin is precompiled and added to your UE project or folder.
