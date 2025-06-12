@@ -22,6 +22,9 @@ Welcome to the Motorica's documentation!
 
 [Click here](get-started/index.md) to get started with Motorica Studio for Unreal Engine 5.
 
+!!! warning
+    The UE Plugin “Motorica Studio” is not actively supported at this time. Using this legacy plugin will require additional steps (see [Register](installing.md#register-at-motorica)).
+
 ### Other Software Guides
 
 For other software we recommends using the web based [Style Viewer :material-monitor-shimmer:](https://mogen.motorica.ai/)
