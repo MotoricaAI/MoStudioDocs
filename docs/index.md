@@ -16,14 +16,14 @@
 
 -->
 
-Welcome to the Motorica's documentation!
+!!! warning
+    The UE Plugin “Motorica Studio” is not actively supported at this time. Using this legacy plugin will require additional steps (see [Register](get-started/installing.md#register-at-motorica)).
+
+Welcome to Motorica's documentation!
 
 [:simple-unrealengine: Download UE Plugin](downloads.md#motorica-studio-ue-plugin){ .md-button .md-button--primary } [:material-monitor-shimmer: Online Style Viewer](https://mogen.motorica.ai/){ .md-button }
 
 [Click here](get-started/index.md) to get started with Motorica Studio for Unreal Engine 5.
-
-!!! warning
-    The UE Plugin “Motorica Studio” is not actively supported at this time. Using this legacy plugin will require additional steps (see [Register](installing.md#register-at-motorica)).
 
 ### Other Software Guides
 
