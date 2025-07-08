@@ -19,13 +19,13 @@
 
 ## Motorica Studio (UE plugin)
 
-Follow the [installation guide](get-started/installing.md) to install Motorica Studio. We recommend you use the **latest UE version supported by Motorica Studio.** Older UE versions may lose support in the future.
+Follow the [installation guide](get-started/installing.md) to install Motorica Studio. We recommend you use the **latest UE version supported by Motorica Studio.** Older UE versions may lose support in the future. Also note that the plugin uses our old auth. system so you need to sign up for a separate account for use of the plugin, register here: http://app.motorica.ai/
 
 ### Compatibility
 
 - **Blueprint** and **C++** projects are supported.
 
-    !!! warning
+    !!! NOTE
         
         Only the *Development Editor* build configuration is supported; other build configurations will not compile. This is a limitation of UE and we need to compile the engine ourselves to build binaries for the other configurations. Let us know if this is important to you and we will consider adding further support.
 
